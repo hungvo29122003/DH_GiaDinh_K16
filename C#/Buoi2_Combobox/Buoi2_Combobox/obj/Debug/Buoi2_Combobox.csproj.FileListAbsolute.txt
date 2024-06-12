@@ -1,0 +1,10 @@
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\obj\Debug\Buoi2_Combobox.csproj.AssemblyReference.cache
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\obj\Debug\Buoi2_Combobox.Form1.resources
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\obj\Debug\Buoi2_Combobox.Properties.Resources.resources
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\obj\Debug\Buoi2_Combobox.csproj.GenerateResource.cache
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\obj\Debug\Buoi2_Combobox.csproj.CoreCompileInputs.cache
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\bin\Debug\Buoi2_Combobox.exe.config
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\bin\Debug\Buoi2_Combobox.exe
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\bin\Debug\Buoi2_Combobox.pdb
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\obj\Debug\Buoi2_Combobox.exe
+F:\DEV\C#\Buoi2_Combobox\Buoi2_Combobox\obj\Debug\Buoi2_Combobox.pdb

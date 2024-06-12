@@ -1,0 +1,17 @@
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\bin\Debug\net8.0-windows\buoi3.BT.exe
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\bin\Debug\net8.0-windows\buoi3.BT.deps.json
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\bin\Debug\net8.0-windows\buoi3.BT.runtimeconfig.json
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\bin\Debug\net8.0-windows\buoi3.BT.dll
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\bin\Debug\net8.0-windows\buoi3.BT.pdb
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.Form1.resources
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.csproj.GenerateResource.cache
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.GeneratedMSBuildEditorConfig.editorconfig
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.AssemblyInfoInputs.cache
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.AssemblyInfo.cs
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.csproj.CoreCompileInputs.cache
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.sourcelink.json
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.dll
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\refint\buoi3.BT.dll
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.pdb
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\buoi3.BT.genruntimeconfig.cache
+F:\DEV\C#\buoi3\buoi3.BT\buoi3.BT\obj\Debug\net8.0-windows\ref\buoi3.BT.dll

@@ -1,0 +1,10 @@
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\bin\Debug\Buoi2.listbox.exe.config
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\bin\Debug\Buoi2.listbox.exe
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\bin\Debug\Buoi2.listbox.pdb
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\obj\Debug\Buoi2.listbox.csproj.AssemblyReference.cache
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\obj\Debug\Buoi2.listbox.Form1.resources
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\obj\Debug\Buoi2.listbox.Properties.Resources.resources
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\obj\Debug\Buoi2.listbox.csproj.GenerateResource.cache
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\obj\Debug\Buoi2.listbox.csproj.CoreCompileInputs.cache
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\obj\Debug\Buoi2.listbox.exe
+F:\DEV\C#\Buoi2.listbox\Buoi2.listbox\obj\Debug\Buoi2.listbox.pdb

@@ -1,0 +1,10 @@
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\bin\Debug\Buoi2.TongHop.exe.config
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\bin\Debug\Buoi2.TongHop.exe
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\bin\Debug\Buoi2.TongHop.pdb
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\obj\Debug\Buoi2.TongHop.csproj.AssemblyReference.cache
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\obj\Debug\Buoi2.TongHop.Form1.resources
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\obj\Debug\Buoi2.TongHop.Properties.Resources.resources
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\obj\Debug\Buoi2.TongHop.csproj.GenerateResource.cache
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\obj\Debug\Buoi2.TongHop.csproj.CoreCompileInputs.cache
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\obj\Debug\Buoi2.TongHop.exe
+F:\DEV\C#\Buoi2.TongHop\Buoi2.TongHop\obj\Debug\Buoi2.TongHop.pdb
