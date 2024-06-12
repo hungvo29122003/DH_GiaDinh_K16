@@ -15,21 +15,24 @@ public class CalculatorView extends JFrame implements ActionListener {
     // field
     private String title;
     private JPanel jPanelRemote;
-    private JLabel jLabelInput1Remote, jLabelInput2Remote, jLabelOutput1Remote;
+    private JLabel jLabelInput1Remote, jLabelInput2Remote,
+            jLabelOutputRemote;
     private JTextField jTextFieldInput1Remote, jTextFieldInput2Remote;
     private JButton addButtonRemote, subButtonRemote, mulButtonRemote, divButtonRemote;
     private CalculatorModel calculatorModelRemote;
 
-    // function, method
+    // function , method
     CalculatorView() {
         calculatorModelRemote = new CalculatorModel();
         buildPanel();
         add(jPanelRemote);
-        title = "FrameViewer";
+        title = "Frame Viewer";
         setTitle(title);
         setSize(400, 400);
         setVisible(true);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+
     }
 
     public void buildPanel() {
@@ -39,53 +42,58 @@ public class CalculatorView extends JFrame implements ActionListener {
         jTextFieldInput1Remote = new JTextField(10);
         jPanelRemote.add(jTextFieldInput1Remote);
         jLabelInput2Remote = new JLabel("input2");
-        jPanelRemote.add(jLabelInput2Remote);
         jTextFieldInput2Remote = new JTextField(10);
+        jLabelOutputRemote = new JLabel("Output");
+        jPanelRemote.add(jLabelInput2Remote);
         jPanelRemote.add(jTextFieldInput2Remote);
-        jLabelOutput1Remote = new JLabel("output ");
-        jPanelRemote.add(jLabelOutput1Remote);
+        jPanelRemote.add(jLabelOutputRemote);
         addButtonRemote = new JButton("ADD");
-        addButtonRemote.addActionListener(this); // remote cua calculatoWindow
+        addButtonRemote.addActionListener(this);// Remote của CalculatorWindow
         jPanelRemote.add(addButtonRemote);
+        subButtonRemote = new JButton("SUB");
+        jPanelRemote.add(subButtonRemote);
+        subButtonRemote.addActionListener(this);
         mulButtonRemote = new JButton("MUL");
         mulButtonRemote.addActionListener(this);
         jPanelRemote.add(mulButtonRemote);
-        subButtonRemote = new JButton("SUB");
-        subButtonRemote.addActionListener(this);
-        jPanelRemote.add(subButtonRemote);
         divButtonRemote = new JButton("DIV");
         divButtonRemote.addActionListener(this);
         jPanelRemote.add(divButtonRemote);
+
+        // jPanelRemote.setBackground(Color.BLUE);
 
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        String command = e.getActionCommand();
-        double num1 = Double.parseDouble(jTextFieldInput1Remote.getText());
-        double num2 = Double.parseDouble(jTextFieldInput2Remote.getText());
 
+        String command = e.getActionCommand();
+        double num1 = Double.parseDouble
+        (jTextFieldInput1Remote.getText());
+        double num2 = Double.parseDouble
+        (jTextFieldInput2Remote.getText());
+        
         if (command.equals("ADD")) {
-            // mesage to Model
+            //message to Model
             calculatorModelRemote.add(num1, num2);
             double result = calculatorModelRemote.getResult();
-            jLabelOutput1Remote.setText("" + result);
-        } else if (command.equals("SUB")) {
+
+            jLabelOutputRemote.setText("" + result);
+
+        }else if(command.equals("SUB")){
             calculatorModelRemote.sub(num1, num2);
             double result = calculatorModelRemote.getResult();
-            jLabelOutput1Remote.setText("" + result);
+
+            jLabelOutputRemote.setText("" + result);
         } else if (command.equals("MUL")) {
-            // double num1 = Double.parseDouble(jTextFieldInput1Remote.getText());
-            // double num2 = Double.parseDouble(jTextFieldInput2Remote.getText());
-            calculatorModelRemote.mul(num1, num2);
+            calculatorModelRemote.mul(num1,num2);
             double result = calculatorModelRemote.getResult();
-            jLabelOutput1Remote.setText("" + result);
-        } else {
-            // double num1 = Double.parseDouble(jTextFieldInput1Remote.getText());
-            // double num2 = Double.parseDouble(jTextFieldInput2Remote.getText());
+            jLabelOutputRemote.setText("" + result);
+        } else{
             calculatorModelRemote.div(num1, num2);
             double result = calculatorModelRemote.getResult();
-            jLabelOutput1Remote.setText("" + result);
+            jLabelOutputRemote.setText("" + result);
         }
     }
+
 }

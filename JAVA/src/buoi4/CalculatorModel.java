@@ -1,22 +1,26 @@
 package buoi4;
 
 public class CalculatorModel {
-    // field
+    //field
     private double result;
+
     //method
-    public void add(double a, double b){
+
+    public void add(double a, double b) {
         this.result = a + b;
     }
-    public void sub(double a, double b){
+
+    public void sub(double a, double b) {
         this.result = a - b;
     }
     public void mul(double a, double b){
-        this.result = a * b ;
+        this.result = a * b;
     }
     public void div(double a, double b){
-        this.result = a / b ;
+        this.result = a / b;
     }
-    public double getResult(){
+    public double getResult() {
         return result;
     }
+
 }
