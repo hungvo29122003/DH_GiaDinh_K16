@@ -1,0 +1,17 @@
+F:\DEV\C#\buoi4\buoi4_treeView\bin\Debug\net8.0-windows\buoi4_treeView.exe
+F:\DEV\C#\buoi4\buoi4_treeView\bin\Debug\net8.0-windows\buoi4_treeView.deps.json
+F:\DEV\C#\buoi4\buoi4_treeView\bin\Debug\net8.0-windows\buoi4_treeView.runtimeconfig.json
+F:\DEV\C#\buoi4\buoi4_treeView\bin\Debug\net8.0-windows\buoi4_treeView.dll
+F:\DEV\C#\buoi4\buoi4_treeView\bin\Debug\net8.0-windows\buoi4_treeView.pdb
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.Form1.resources
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.csproj.GenerateResource.cache
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.GeneratedMSBuildEditorConfig.editorconfig
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.AssemblyInfoInputs.cache
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.AssemblyInfo.cs
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.csproj.CoreCompileInputs.cache
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.sourcelink.json
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.dll
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\refint\buoi4_treeView.dll
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.pdb
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.genruntimeconfig.cache
+F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\ref\buoi4_treeView.dll

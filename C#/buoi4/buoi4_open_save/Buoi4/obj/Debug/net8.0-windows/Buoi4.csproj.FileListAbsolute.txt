@@ -1,0 +1,17 @@
+F:\DEV\C#\buoi4_open_save\Buoi4\bin\Debug\net8.0-windows\Buoi4.exe
+F:\DEV\C#\buoi4_open_save\Buoi4\bin\Debug\net8.0-windows\Buoi4.deps.json
+F:\DEV\C#\buoi4_open_save\Buoi4\bin\Debug\net8.0-windows\Buoi4.runtimeconfig.json
+F:\DEV\C#\buoi4_open_save\Buoi4\bin\Debug\net8.0-windows\Buoi4.dll
+F:\DEV\C#\buoi4_open_save\Buoi4\bin\Debug\net8.0-windows\Buoi4.pdb
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.Form1.resources
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.csproj.GenerateResource.cache
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.GeneratedMSBuildEditorConfig.editorconfig
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.AssemblyInfoInputs.cache
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.AssemblyInfo.cs
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.csproj.CoreCompileInputs.cache
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.sourcelink.json
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.dll
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\refint\Buoi4.dll
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.pdb
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.genruntimeconfig.cache
+F:\DEV\C#\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\ref\Buoi4.dll
