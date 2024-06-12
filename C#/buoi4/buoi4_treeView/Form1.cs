@@ -6,11 +6,6 @@
         {
             InitializeComponent();
         }
-
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-
-        }
         private bool kiemtra(String s)
         {
             for (int i = 0; i < treeView1.Nodes.Count; i++)
