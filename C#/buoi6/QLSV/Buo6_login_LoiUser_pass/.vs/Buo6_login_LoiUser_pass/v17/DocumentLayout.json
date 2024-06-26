@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\DEV\\C#\\buoi6\\QLSV\\Buo6_login_LoiUser_pass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D25EF6B-BE3D-4739-8E1D-5460CF1FB506}|Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass.csproj|F:\\DEV\\C#\\buoi6\\QLSV\\Buo6_login_LoiUser_pass\\buo6_login_loiuser_pass\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D25EF6B-BE3D-4739-8E1D-5460CF1FB506}|Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass.csproj|solutionrelative:buo6_login_loiuser_pass\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D25EF6B-BE3D-4739-8E1D-5460CF1FB506}|Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass.csproj|f:\\dev\\c#\\buoi6\\qlsv\\buo6_login_loiuser_pass\\buo6_login_loiuser_pass\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D25EF6B-BE3D-4739-8E1D-5460CF1FB506}|Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass.csproj|solutionrelative:buo6_login_loiuser_pass\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1064,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\DEV\\C#\\buoi6\\QLSV\\Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass\\Form1.cs",
+              "RelativeDocumentMoniker": "Buo6_login_LoiUser_pass\\Form1.cs",
+              "ToolTip": "F:\\DEV\\C#\\buoi6\\QLSV\\Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass\\Form1.cs [Design]",
+              "RelativeToolTip": "Buo6_login_LoiUser_pass\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:45:36.188Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ketnoi.cs",
+              "DocumentMoniker": "F:\\DEV\\C#\\buoi6\\QLSV\\Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass\\ketnoi.cs",
+              "RelativeDocumentMoniker": "Buo6_login_LoiUser_pass\\ketnoi.cs",
+              "ToolTip": "F:\\DEV\\C#\\buoi6\\QLSV\\Buo6_login_LoiUser_pass\\Buo6_login_LoiUser_pass\\ketnoi.cs",
+              "RelativeToolTip": "Buo6_login_LoiUser_pass\\ketnoi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:47:39.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

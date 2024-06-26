@@ -7,6 +7,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
@@ -15,11 +17,12 @@ public class CalculatorView extends JFrame implements ActionListener {
     // field
     private String title;
     private JPanel jPanelRemote;
-    private JLabel jLabelInput1Remote, jLabelInput2Remote,
-            jLabelOutputRemote;
+    private JLabel jLabelInput1Remote, jLabelInput2Remote, jLabelOutputRemote;
     private JTextField jTextFieldInput1Remote, jTextFieldInput2Remote;
     private JButton addButtonRemote, subButtonRemote, mulButtonRemote, divButtonRemote;
     private CalculatorModel calculatorModelRemote;
+    private JMenuBar menuBarRemote;
+
 
     // function , method
     CalculatorView() {
@@ -63,7 +66,6 @@ public class CalculatorView extends JFrame implements ActionListener {
         // jPanelRemote.setBackground(Color.BLUE);
 
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
 

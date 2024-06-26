@@ -39,6 +39,7 @@ public class CalculatorView extends JFrame implements Subcriber{
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        
     }
     public void buildPanel(){
         jPanelRemote = new JPanel();
