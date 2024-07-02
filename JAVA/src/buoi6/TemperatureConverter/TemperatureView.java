@@ -18,10 +18,9 @@ public class TemperatureView  extends JFrame implements Subcriber{
     private String title;
     private JPanel jPanelRemote;
     private JLabel jLabelInput1Remote, jLableInput2Remote, jlabelOutputRemote;
-    private JTextField jTextFieldInput1Remote,jTextFieldInput2Remote, jTextFieldOutputRemote;
+    private JTextField jTextFieldInput1Remote,jTextFieldInput2Remote;
     private TemperatureModel TemperatureModelRemote;
-    private TemperatureModel temperatureControllerRemote;
-    private menuController menuControlRemote;
+    private temperatureController menuControlRemote;
     private JMenuBar menuBarRemote = null;
     private String lastCommand;
     
@@ -31,12 +30,12 @@ public class TemperatureView  extends JFrame implements Subcriber{
      public TemperatureView(){
         TemperatureModelRemote = new TemperatureModel();
         TemperatureModelRemote.subcriber(this);
-        menuControlRemote = new menuController();
+        menuControlRemote = new temperatureController();
         buildMenu();
         buildPanel();
         add(jPanelRemote);
         setJMenuBar(menuBarRemote);
-
+        setTitle(title);
         title = "Temperature Converter";
         setSize(400, 400);
         setVisible(true);
@@ -80,8 +79,8 @@ public class TemperatureView  extends JFrame implements Subcriber{
             jTextFieldInput2Remote.setText(String.valueOf(TemperatureModelRemote.getResult()));
         }
     }
-    class menuController implements ActionListener{
-        public menuController(){
+    class temperatureController implements ActionListener{
+        public temperatureController(){
 
         }
         public void actionPerformed(ActionEvent e){

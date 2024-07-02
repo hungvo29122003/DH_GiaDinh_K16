@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
-namespace buoi6
+namespace QLSV
 {
     public class ketnoi
     {
-        SqlConnection conn;
+        private SqlConnection conn;
         public ketnoi()
         {
             // String str = @"Data Source=HUNG;Initial Catalog=QLDiemSV;Integrated Security=True;Encrypt=False";
@@ -21,19 +21,29 @@ namespace buoi6
             string str = ConfigurationManager.ConnectionStrings["ketnoi"].ConnectionString;
             conn = new SqlConnection(str);
         }
+
+        public SqlConnection getConn()
+        {
+            return conn;
+        }
         public void openConnection()
         {
-            if (ConnectionState.Closed == conn.State) { 
-               try
+            if (ConnectionState.Closed == conn.State)
+            {
+                try
                 {
                     conn.Open();
-                } catch {
+                }
+                catch
+                {
                     MessageBox.Show("Kiểm tra kết nối!");
                 }
             }
         }
-        public void closeConnection() {
-            if (ConnectionState.Closed == conn.State) {
+        public void closeConnection()
+        {
+            if (ConnectionState.Closed == conn.State)
+            {
                 try
                 {
                     conn.Close();
@@ -47,21 +57,22 @@ namespace buoi6
         public DataTable Execute(String query)
         {
             DataTable dt = new DataTable();
-           openConnection();
+            openConnection();
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = query;
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             adapter.Fill(dt);
-           closeConnection();
+            closeConnection();
             return dt;
         }
         // query INSERT, DELETE, UPDATE
-        public void ExecuteNonQuery(String query) { 
+        public void ExecuteNonQuery(String query)
+        {
             openConnection();
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandText = query;
             cmd.ExecuteNonQuery();
-           closeConnection();
+            closeConnection();
         }
     }
 }

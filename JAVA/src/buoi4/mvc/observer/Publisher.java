@@ -11,7 +11,7 @@ public class Publisher {
     //field
     private List<Subcriber> subcriber = new LinkedList<>();
     //method
-    public void subcriber(buoi5.mvc.CalculatorView calculatorView){
+    public void subcriber(CalculatorView calculatorView){
         subcriber.add(calculatorView);
     }
     public void unsubcriber(Subcriber s){

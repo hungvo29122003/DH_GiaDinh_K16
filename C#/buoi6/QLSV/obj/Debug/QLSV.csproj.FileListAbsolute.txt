@@ -29,3 +29,5 @@ F:\DEV\C#\buoi6\QLSV\obj\Debug\QLSV.csproj.GenerateResource.cache
 F:\DEV\C#\buoi6\QLSV\obj\Debug\QLSV.csproj.CoreCompileInputs.cache
 F:\DEV\C#\buoi6\QLSV\obj\Debug\Buoi6-ketnoi.exe
 F:\DEV\C#\buoi6\QLSV\obj\Debug\Buoi6-ketnoi.pdb
+F:\DEV\C#\buoi6\QLSV\obj\Debug\QLSV.DSSv.resources
+F:\DEV\C#\buoi6\QLSV\obj\Debug\QLSV.DSMON_HOC.resources

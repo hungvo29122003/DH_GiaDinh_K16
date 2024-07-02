@@ -30,11 +30,14 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.DsLop = new System.Windows.Forms.ToolStripMenuItem();
-            this.sinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mônHọcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lop = new System.Windows.Forms.ToolStripMenuItem();
+            this.DS_lop = new System.Windows.Forms.ToolStripMenuItem();
+            this.SinhVien = new System.Windows.Forms.ToolStripMenuItem();
+            this.DS_SV = new System.Windows.Forms.ToolStripMenuItem();
+            this.Mon_Hoc = new System.Windows.Forms.ToolStripMenuItem();
+            this.DS_Monhoc = new System.Windows.Forms.ToolStripMenuItem();
             this.giảngViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,35 +54,64 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.DsLop,
-            this.sinhToolStripMenuItem,
-            this.mônHọcToolStripMenuItem,
+            this.lop,
+            this.SinhVien,
+            this.Mon_Hoc,
             this.giảngViênToolStripMenuItem,
-            this.thoátToolStripMenuItem});
+            this.exit});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // DsLop
+            // lop
             // 
-            this.DsLop.Name = "DsLop";
-            this.DsLop.Size = new System.Drawing.Size(82, 20);
-            this.DsLop.Text = "Phân hệ lớp";
-            this.DsLop.Click += new System.EventHandler(this.DsLop_Click);
+            this.lop.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.DS_lop});
+            this.lop.Name = "lop";
+            this.lop.Size = new System.Drawing.Size(82, 20);
+            this.lop.Text = "Phân hệ lớp";
             // 
-            // sinhToolStripMenuItem
+            // DS_lop
             // 
-            this.sinhToolStripMenuItem.Name = "sinhToolStripMenuItem";
-            this.sinhToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
-            this.sinhToolStripMenuItem.Text = " Sinh viên";
+            this.DS_lop.Name = "DS_lop";
+            this.DS_lop.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.DS_lop.Size = new System.Drawing.Size(191, 22);
+            this.DS_lop.Text = "Danh sách lớp";
+            this.DS_lop.Click += new System.EventHandler(this.DS_lop_Click);
             // 
-            // mônHọcToolStripMenuItem
+            // SinhVien
             // 
-            this.mônHọcToolStripMenuItem.Name = "mônHọcToolStripMenuItem";
-            this.mônHọcToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.mônHọcToolStripMenuItem.Text = "Môn học";
+            this.SinhVien.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.DS_SV});
+            this.SinhVien.Name = "SinhVien";
+            this.SinhVien.Size = new System.Drawing.Size(70, 20);
+            this.SinhVien.Text = " Sinh viên";
+            // 
+            // DS_SV
+            // 
+            this.DS_SV.Name = "DS_SV";
+            this.DS_SV.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.DS_SV.Size = new System.Drawing.Size(222, 22);
+            this.DS_SV.Text = "Danh Sách sinh viên";
+            this.DS_SV.Click += new System.EventHandler(this.DS_SV_Click);
+            // 
+            // Mon_Hoc
+            // 
+            this.Mon_Hoc.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.DS_Monhoc});
+            this.Mon_Hoc.Name = "Mon_Hoc";
+            this.Mon_Hoc.Size = new System.Drawing.Size(67, 20);
+            this.Mon_Hoc.Text = "Môn học";
+            // 
+            // DS_Monhoc
+            // 
+            this.DS_Monhoc.Name = "DS_Monhoc";
+            this.DS_Monhoc.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.DS_Monhoc.Size = new System.Drawing.Size(222, 22);
+            this.DS_Monhoc.Text = "Danh sách môn học";
+            this.DS_Monhoc.Click += new System.EventHandler(this.DS_Monhoc_Click);
             // 
             // giảngViênToolStripMenuItem
             // 
@@ -87,12 +119,12 @@
             this.giảngViênToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.giảngViênToolStripMenuItem.Text = "Giảng viên";
             // 
-            // thoátToolStripMenuItem
+            // exit
             // 
-            this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.thoátToolStripMenuItem.Text = "Thoát";
-            this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(49, 20);
+            this.exit.Text = "Thoát";
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // Main
             // 
@@ -114,10 +146,13 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem DsLop;
-        private System.Windows.Forms.ToolStripMenuItem sinhToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mônHọcToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lop;
+        private System.Windows.Forms.ToolStripMenuItem SinhVien;
+        private System.Windows.Forms.ToolStripMenuItem Mon_Hoc;
         private System.Windows.Forms.ToolStripMenuItem giảngViênToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exit;
+        private System.Windows.Forms.ToolStripMenuItem DS_lop;
+        private System.Windows.Forms.ToolStripMenuItem DS_SV;
+        private System.Windows.Forms.ToolStripMenuItem DS_Monhoc;
     }
 }

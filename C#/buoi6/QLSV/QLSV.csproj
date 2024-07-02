@@ -53,6 +53,12 @@
     <Compile Include="DSLop.Designer.cs">
       <DependentUpon>DSLop.cs</DependentUpon>
     </Compile>
+    <Compile Include="DSSv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSSv.Designer.cs">
+      <DependentUpon>DSSv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ketnoi.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -60,13 +66,25 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="DSMON_HOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSMON_HOC.Designer.cs">
+      <DependentUpon>DSMON_HOC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DSLop.resx">
       <DependentUpon>DSLop.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DSSv.resx">
+      <DependentUpon>DSSv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSMON_HOC.resx">
+      <DependentUpon>DSMON_HOC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

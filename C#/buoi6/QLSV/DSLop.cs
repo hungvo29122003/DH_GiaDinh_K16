@@ -1,4 +1,5 @@
-﻿using buoi6;
+﻿
+using QLSV;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,15 +9,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace QLSV
 {
     public partial class DSLop : Form
     {
         ketnoi ketnoi = new ketnoi();
-        public DSLop()
+        Main fm = null;
+        public DSLop(Main fm)
         {
             InitializeComponent();
+            this.fm = fm;
         }
         public void loadData()
         {
@@ -44,6 +46,11 @@ namespace QLSV
             String query = "DELETE FROM LOP WHERE Malop = " + id;
             ketnoi.ExecuteNonQuery(query);
             loadData();
+        }
+
+        private void DSLop_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.fm.Show();
         }
     }
 }
