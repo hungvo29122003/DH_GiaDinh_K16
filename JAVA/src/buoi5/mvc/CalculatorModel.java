@@ -28,11 +28,5 @@ public class CalculatorModel extends Publisher {
     public void changeState(){
     notifySubcribers();      
     }
-    public void subcriber(CalculatorView calculatorView) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'subcriber'");
-    }
-
-    
 }
 

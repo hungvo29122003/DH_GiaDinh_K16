@@ -9,7 +9,6 @@ F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\buoi4_ListView.Generated
 F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\buoi4_ListView.AssemblyInfoInputs.cache
 F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\buoi4_ListView.AssemblyInfo.cs
 F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\buoi4_ListView.csproj.CoreCompileInputs.cache
-F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\buoi4_ListView.sourcelink.json
 F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\buoi4_ListView.dll
 F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\refint\buoi4_ListView.dll
 F:\DEV\C#\buoi4\buoi4_ListView\obj\Debug\net8.0-windows\buoi4_ListView.pdb

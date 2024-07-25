@@ -1,0 +1,10 @@
+F:\DEV\C#\DemoThread\bin\Debug\DemoThread.exe.config
+F:\DEV\C#\DemoThread\bin\Debug\DemoThread.exe
+F:\DEV\C#\DemoThread\bin\Debug\DemoThread.pdb
+F:\DEV\C#\DemoThread\obj\Debug\DemoThread.csproj.AssemblyReference.cache
+F:\DEV\C#\DemoThread\obj\Debug\DemoThread.Form1.resources
+F:\DEV\C#\DemoThread\obj\Debug\DemoThread.Properties.Resources.resources
+F:\DEV\C#\DemoThread\obj\Debug\DemoThread.csproj.GenerateResource.cache
+F:\DEV\C#\DemoThread\obj\Debug\DemoThread.csproj.CoreCompileInputs.cache
+F:\DEV\C#\DemoThread\obj\Debug\DemoThread.exe
+F:\DEV\C#\DemoThread\obj\Debug\DemoThread.pdb

@@ -20,9 +20,11 @@ public class TemperatureView  extends JFrame implements Subcriber{
     private JLabel jLabelInput1Remote, jLableInput2Remote, jlabelOutputRemote;
     private JTextField jTextFieldInput1Remote,jTextFieldInput2Remote;
     private TemperatureModel TemperatureModelRemote;
-    private temperatureController menuControlRemote;
     private JMenuBar menuBarRemote = null;
     private String lastCommand;
+    private MenuController MenuControllerRemote;
+    private JMenuItem c2fRemote, f2cRemote, exitRemote; 
+    private EnterController enterControllerRemote;
     
   
 
@@ -30,7 +32,6 @@ public class TemperatureView  extends JFrame implements Subcriber{
      public TemperatureView(){
         TemperatureModelRemote = new TemperatureModel();
         TemperatureModelRemote.subcriber(this);
-        menuControlRemote = new temperatureController();
         buildMenu();
         buildPanel();
         add(jPanelRemote);
@@ -42,33 +43,43 @@ public class TemperatureView  extends JFrame implements Subcriber{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
     }
+    public JTextField getjTextFieldInput1Remote(){
+        return jTextFieldInput1Remote;
+    }
+    public JTextField getjTextFieldInput2Remote(){
+        return jTextFieldInput2Remote;
+    }
     public void buildPanel(){
         jPanelRemote = new JPanel();
         jLabelInput1Remote = new JLabel("Celsius");
         jPanelRemote.add(jLabelInput1Remote);
         jTextFieldInput1Remote = new JTextField(10);
         jPanelRemote.add(jTextFieldInput1Remote);
+        //jTextFieldInput1Remote.addActionListener(enterControllerRemote);
         jLableInput2Remote = new JLabel("Fahrenheit");
         jPanelRemote.add(jLableInput2Remote);
         jTextFieldInput2Remote = new JTextField(10);
         jPanelRemote.add(jTextFieldInput2Remote);
+        //jTextFieldInput2Remote.addActionListener(enterControllerRemote);
         jlabelOutputRemote = new JLabel();
        jPanelRemote.add(jlabelOutputRemote);
     }
     public void buildMenu(){
         menuBarRemote = new JMenuBar();
         JMenu ConverterRemote = new JMenu("Commands");
-        JMenuItem f2cRemote = new JMenuItem("f2c");
-        f2cRemote.addActionListener(menuControlRemote);
-        JMenuItem c2fRemote = new JMenuItem("c2f");
-        c2fRemote.addActionListener(menuControlRemote);
-        JMenuItem exitRemote = new JMenuItem("exit");
-        exitRemote.addActionListener(menuControlRemote);
+        f2cRemote = new JMenuItem("f2c");
+        c2fRemote = new JMenuItem("c2f");
+        exitRemote = new JMenuItem("exit");
         ConverterRemote.add(f2cRemote);
         ConverterRemote.add(c2fRemote);
         ConverterRemote.add(exitRemote);
         menuBarRemote.add(ConverterRemote);
 
+    }
+    public void setMenuControll(MenuController menuControllerRemote){
+        f2cRemote.addActionListener(menuControllerRemote);
+        c2fRemote.addActionListener(menuControllerRemote);
+        exitRemote.addActionListener(menuControllerRemote);
     }
     @Override
     public void update() {
@@ -79,25 +90,10 @@ public class TemperatureView  extends JFrame implements Subcriber{
             jTextFieldInput2Remote.setText(String.valueOf(TemperatureModelRemote.getResult()));
         }
     }
-    class temperatureController implements ActionListener{
-        public temperatureController(){
-
-        }
-        public void actionPerformed(ActionEvent e){
-            String command = e.getActionCommand();
-            lastCommand = command;
-            
-            if (command.equals("f2c")) {
-                double Fahrenheit = Double.parseDouble(jTextFieldInput2Remote.getText());
-                TemperatureModelRemote.f2c(Fahrenheit);
-            } else if (command.equals("c2f")) {
-               double Celsius = Double.parseDouble(jTextFieldInput1Remote.getText());
-               TemperatureModelRemote.c2f(Celsius);
-            } else if (command.equals("exit")){
-                TemperatureModelRemote.exit();
-            }
-        }
+    public void setlastCommand(String lastcommand){
+        this.lastCommand = lastcommand;
     }
+    
 
     // class TemperatureController implements ActionListener{
 

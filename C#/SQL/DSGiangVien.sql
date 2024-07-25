@@ -1,0 +1,70 @@
+﻿CREATE DATABASE DSGiangVien
+GO
+USE [DSGiangVien]
+GO
+CREATE TABLE COSO
+(
+	macoso nvarchar(10) primary key,
+	tencoso nvarchar(30)
+)
+GO
+CREATE TABLE DONVI
+(
+	madonvi nvarchar(10) primary key,
+	tendonvi nvarchar(30),
+	macoso nvarchar(10), 
+	foreign key (macoso) references COSO(macoso)
+)
+GO
+CREATE TABLE GIANGVIEN
+(
+	magv nvarchar(10) primary key,
+	hoten nvarchar(30),
+	sdt nvarchar(15),
+	ghichu nvarchar(50),
+	madonvi nvarchar(10), 
+	foreign key (madonvi) references DONVI(madonvi)
+)
+GO
+INSERT INTO COSO VALUES (N'CS01',N'Bình Thạnh')
+INSERT INTO COSO VALUES (N'CS02',N'Nguyễn Kiệm')
+INSERT INTO COSO VALUES (N'CS03',N'Hoàng Văn Thụ')
+GO
+INSERT INTO DONVI VALUES (N'DV01',N'Khoa Công nghệ thông tin',N'CS01')
+INSERT INTO DONVI VALUES (N'DV02',N'Khoa truyền thông số',N'CS01')
+INSERT INTO DONVI VALUES (N'DV03',N'Khoa xã hội',N'CS01')
+INSERT INTO DONVI VALUES (N'DV04',N'Khoa Kinh tế quản trị',N'CS02')
+INSERT INTO DONVI VALUES (N'DV05',N'Khoa hàng không',N'CS02')
+INSERT INTO DONVI VALUES (N'DV06',N'Khoa Ngoại ngữ',N'CS03')
+INSERT INTO DONVI VALUES (N'DV06',N'Khoa Dược - Điều dưỡng',N'CS03')
+GO
+INSERT INTO GIANGVIEN VALUES (N'GV01',N'Nguyễn Anh Khoa',N'01937194723',N'Thạc sĩ',N'DV01')
+INSERT INTO GIANGVIEN VALUES (N'GV02',N'Trần Anh Ngọc',N'35324236234',N'Thạc sĩ',N'DV01')
+INSERT INTO GIANGVIEN VALUES (N'GV03',N'Nguyễn Phương Nam',N'353242364',N'Thạc sĩ',N'DV01')
+INSERT INTO GIANGVIEN VALUES (N'GV04',N'Nguyễn Phương Tâm',N'34342324',N'Thạc sĩ',N'DV02')
+INSERT INTO GIANGVIEN VALUES (N'GV05',N'Trần Mỹ Lệ',N'0937265925',N'Thạc sĩ',N'DV02')
+INSERT INTO GIANGVIEN VALUES (N'GV06',N'Bùi Công Anh',N'0987654353',N'Thạc sĩ',N'DV03')
+INSERT INTO GIANGVIEN VALUES (N'GV07',N'Nguyễn Quốc Nghĩa',N'4232235232',N'Thạc sĩ',N'DV03')
+INSERT INTO GIANGVIEN VALUES (N'GV08',N'Trần Thế Nghĩa',N'34235236',N'Thạc sĩ',N'DV04')
+INSERT INTO GIANGVIEN VALUES (N'GV09',N'Hồ Đăng Thế',N'3435463463',N'Thạc sĩ',N'DV05')
+INSERT INTO GIANGVIEN VALUES (N'GV10',N'Trần Quang Vinh',N'342354363',N'Thạc sĩ',N'DV05')
+INSERT INTO GIANGVIEN VALUES (N'GV11',N'Nguyễn Cao Kỳ',N'091234566',N'Thạc sĩ',N'DV06')
+INSERT INTO GIANGVIEN VALUES (N'GV12',N'Đặng Quốc Phong',N'039424525',N'Thạc sĩ',N'DV06')
+INSERT INTO GIANGVIEN VALUES (N'GV13',N'Bùi Anh Quân',N'0322428502',N'Thạc sĩ',N'DV06')
+INSERT INTO GIANGVIEN VALUES (N'GV14',N'Nguyễn Thế Nghĩa',N'024235482',N'Thạc sĩ',N'DV06')
+GO
+SELECT * FROM COSO
+SELECT * FROM DONVI
+SELECT * FROM GIANGVIEN
+GO
+SELECT DONVI.tendonvi FROM DONVI, COSO WHERE DONVI.macoso = COSO.macoso AND COSO.tencoso =N'Bình Thạnh'
+SELECT *
+FROM (GIANGVIEN INNER JOIN DONVI ON GIANGVIEN.madonvi = DONVI.madonvi)
+INNER JOIN COSO ON DONVI.macoso = COSO.macoso
+WHERE DONVI.tendonvi = N'Khoa xã hội' AND COSO.tencoso = N'Bình Thạnh'
+GO
+SELECT GIANGVIEN.magv,GIANGVIEN.hoten,GIANGVIEN.sdt,GIANGVIEN.ghichu,DONVI.tendonvi,COSO.tencoso
+FROM (GIANGVIEN INNER JOIN DONVI ON GIANGVIEN.madonvi = DONVI.madonvi)
+INNER JOIN COSO ON DONVI.macoso = COSO.macoso
+WHERE GIANGVIEN.magv = 'GV07'
+GO

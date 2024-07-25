@@ -9,7 +9,6 @@ F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.Generated
 F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.AssemblyInfoInputs.cache
 F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.AssemblyInfo.cs
 F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.csproj.CoreCompileInputs.cache
-F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.sourcelink.json
 F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.dll
 F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\refint\buoi4_treeView.dll
 F:\DEV\C#\buoi4\buoi4_treeView\obj\Debug\net8.0-windows\buoi4_treeView.pdb

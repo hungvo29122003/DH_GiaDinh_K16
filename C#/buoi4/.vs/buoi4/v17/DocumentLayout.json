@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "F:\\DEV\\C#\\buoi4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E45D9AF5-5B45-47DF-8B9F-3B6863ABF89E}|buoi4_treeView\\buoi4_treeView.csproj|F:\\DEV\\C#\\buoi4\\buoi4_treeview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E45D9AF5-5B45-47DF-8B9F-3B6863ABF89E}|buoi4_treeView\\buoi4_treeView.csproj|f:\\dev\\c#\\buoi4\\buoi4_treeview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E45D9AF5-5B45-47DF-8B9F-3B6863ABF89E}|buoi4_treeView\\buoi4_treeView.csproj|solutionrelative:buoi4_treeview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"

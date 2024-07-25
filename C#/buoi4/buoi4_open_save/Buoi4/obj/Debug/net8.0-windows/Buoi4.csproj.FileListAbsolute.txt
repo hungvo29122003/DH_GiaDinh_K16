@@ -26,7 +26,6 @@ F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.GeneratedMS
 F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.AssemblyInfoInputs.cache
 F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.AssemblyInfo.cs
 F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.csproj.CoreCompileInputs.cache
-F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.sourcelink.json
 F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.dll
 F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\refint\Buoi4.dll
 F:\DEV\C#\buoi4\buoi4_open_save\Buoi4\obj\Debug\net8.0-windows\Buoi4.pdb

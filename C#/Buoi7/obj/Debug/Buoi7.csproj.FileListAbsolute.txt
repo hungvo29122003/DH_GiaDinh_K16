@@ -1,0 +1,10 @@
+F:\DEV\C#\Buoi7\bin\Debug\Buoi7.exe.config
+F:\DEV\C#\Buoi7\bin\Debug\Buoi7.exe
+F:\DEV\C#\Buoi7\bin\Debug\Buoi7.pdb
+F:\DEV\C#\Buoi7\obj\Debug\Buoi7.csproj.AssemblyReference.cache
+F:\DEV\C#\Buoi7\obj\Debug\Buoi7.DSGIANGVIEN.resources
+F:\DEV\C#\Buoi7\obj\Debug\Buoi7.Properties.Resources.resources
+F:\DEV\C#\Buoi7\obj\Debug\Buoi7.csproj.GenerateResource.cache
+F:\DEV\C#\Buoi7\obj\Debug\Buoi7.csproj.CoreCompileInputs.cache
+F:\DEV\C#\Buoi7\obj\Debug\Buoi7.exe
+F:\DEV\C#\Buoi7\obj\Debug\Buoi7.pdb
