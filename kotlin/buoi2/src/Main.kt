@@ -194,7 +194,7 @@ open class Device(){
         price = newPrice
     }
 
-     open fun getInfo() : String{
+    open fun getInfo() : String{
         return "id ${id}, name ${name}, brand ${brand}, price ${price}"
     }
 }
@@ -205,10 +205,10 @@ class Light() : Device(){
     var brightNess : Int? = null
 
     fun setInfo(newId : String, newName : String, newBrand : String, newPrice : Double, lightPower : Int, color : String, brightNess : Int){
-       super.setInfo(newId = newId, newName = newName, newBrand = newBrand, newPrice = newPrice)
-       this.lightPower = lightPower
-       this.color = color
-       this.brightNess = brightNess
+        super.setInfo(newId = newId, newName = newName, newBrand = newBrand, newPrice = newPrice)
+        this.lightPower = lightPower
+        this.color = color
+        this.brightNess = brightNess
     }
 
     override fun getInfo() : String{
@@ -220,8 +220,8 @@ class Camera() : Device(){
     var rotateSpeed : Int? = null
 
     fun setInfo(newId : String, newName: String, newBrand: String, newPrice: Double, rotateSpeed : Int ){
-       super.setInfo(newId = newId, newName = newName, newBrand = newBrand, newPrice = newPrice)
-       this.rotateSpeed = rotateSpeed
+        super.setInfo(newId = newId, newName = newName, newBrand = newBrand, newPrice = newPrice)
+        this.rotateSpeed = rotateSpeed
     }
 
     override fun getInfo() : String{
