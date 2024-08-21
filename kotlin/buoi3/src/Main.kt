@@ -1,3 +1,5 @@
+import kotlin.math.sin
+
 ////fun main() {
 ////    val number = 100
 ////
@@ -110,15 +112,13 @@
 //    manage.showInfo()
 //}
 //
-//open  class Shape(){
+//abstract  class Shape(){
 //    private var name : String? = null
 //
 //    fun setInfo(newName : String){
 //        this.name = newName
 //    }
-//    open fun calculater() : Double{
-//        return 0.0
-//    }
+//    abstract fun calculateArea() : Double
 //}
 //
 //class Cricle() : Shape(){
@@ -128,7 +128,7 @@
 //        super.setInfo(newName = newName)
 //        this.radius = newRadius
 //    }
-//    override fun calculater() : Double{
+//    override fun calculateArea() : Double{
 //        return Math.PI * radius * radius
 //    }
 //}
@@ -137,13 +137,13 @@
 //    private var width : Double = 0.0
 //    private var height : Double = 0.0
 //
-//    fun setInfo(newName: String, newWith: Double, newHeight : Double){
+//    fun setInfo(newName: String, newWidth: Double, newHeight : Double){
 //        super.setInfo(newName = newName)
-//        this.width = newWith
+//        this.width = newWidth
 //        this.height = newHeight
 //    }
 //
-//    override fun calculater() : Double{
+//    override fun calculateArea() : Double{
 //        return width * height
 //    }
 //
@@ -152,103 +152,182 @@
 //fun main() {
 //    val cricle = Cricle()
 //    val rectangle = Rectangle()
+//
 //    cricle.setInfo("hình tròn", 5.0)
 //    rectangle.setInfo("hình chữ nhật", 4.0, 3.0)
-//    println("Diện tích của hình tròn là ${cricle.calculater()}" )
-//    println("Diện tích của hình chữ nhật là ${rectangle.calculater()}")
+//    println("Diện tích của hình tròn là ${cricle.calculateArea()}" )
+//    println("Diện tích của hình chữ nhật là ${rectangle.calculateArea()}")
+//}
+
+//
+//open class Person(){
+//    private var name: String? = null
+//    private var age : Int? = null
+//    private var address : String? = null
+//
+//    fun setInfo(newName: String, newAge : Int, newAddress : String){
+//        this.name = newName
+//        this.age = newAge
+//        this.address = newAddress
+//    }
+//    open fun getInfo() : String{
+//        return "name $name age $age address $address"
+//    }
+//    fun eat(){
+//        println("$name đang ăn")
+//    }
+//
+//    fun sleep(){
+//        println("$name đang ngủ")
+//    }
+//
+//    open fun work() : String{
+//        return ("$name đang làm việc")
+//    }
+//}
+//class Student() : Person(){
+//    var students : String? = null
+//
+//    fun setInfo(newName: String, newAge: Int, newAddress: String, newStudents: String){
+//        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
+//        this.students = newStudents
+//    }
+//    override fun work() : String{
+//        return ("${super.getInfo()}, đang học tập ở $students")
+//    }
 //}
 //
+//class Teacher() : Person(){
+//    private var subject : String? = null
+//    fun setInfo(newName: String, newAge: Int, newAddress: String, newSubject: String){
+//        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
+//        this.subject = newSubject
+//    }
+//    override fun work() : String{
+//        return ("${super.getInfo()} đang dạy môn $subject")
+//    }
+//}
+//
+//class Engineer() : Person(){
+//    private var company: String? = null
+//
+//    fun setInfo(newName: String, newAge: Int, newAddress: String, newCompany: String){
+//        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
+//        this.company = newCompany
+//    }
+//
+//    override  fun work() : String{
+//        return ("${super.getInfo()}, đang làm tại công ty $company")
+//    }
+//}
+//
+//class PersonManage(){
+//    private val listWork = mutableListOf<Person>()
+//
+//    fun addWord(person: Person){
+//        listWork.add(person)
+//    }
+//
+//    fun remoteWord(person: Person){
+//        listWork.remove(person)
+//    }
+//    fun showWord(){
+//        listWork.forEach(){
+//            println(it.work())
+//        }
+//    }
+//}
+//
+//fun main() {
+//    val personManage = PersonManage()
+//    val student = Student()
+//    val teacher = Teacher()
+//    val engineer = Engineer()
+//    student.setInfo(newName = "Hùng", newAge = 20, newAddress = "Gia lai", newStudents = "Gia định")
+//    teacher.setInfo(newName = "Hùng", newAge = 21, newAddress = "Gia lai", newSubject = "android dev")
+//    engineer.setInfo(newName = "Hùng", newAge = 22, newAddress = "Gia lai", newCompany = "ZERO")
+//    personManage.addWord(student)
+//    personManage.addWord(teacher)
+//    personManage.addWord(engineer)
+//    println("-------------------------------------------------")
+//    personManage.showWord()
+//    println("-------------------------------------------------")
+//}
 
-open class Person(){
-    private var name: String? = null
-    private var age : Int? = null
-    private var address : String? = null
+abstract class Vehicle(){
+    private var brand : String? = null
+    private var model: String? = null
+    private var year : Int? = null
 
-    fun setInfo(newName: String, newAge : Int, newAddress : String){
-        this.name = newName
-        this.age = newAge
-        this.address = newAddress
+    open fun setInfo(newBrand: String, newModel: String, newYear: Int){
+        this.brand = newBrand
+        this.model = newModel
+        this.year = newYear
+
     }
-    open fun getInfo() : String{
-        return "name $name age $age address $address"
-    }
-    fun eat(){
-        println("$name đang ăn")
+    abstract fun starEngine()
+    abstract fun stopEngine()
+}
+
+class Car(): Vehicle(){
+    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
+        super.setInfo(newBrand = newBrand, newModel = newModel, newYear = newYear)
     }
 
-    fun sleep(){
-        println("$name đang ngủ")
+    override fun starEngine(){
+        println("động cơ xe hơi đang khởi động")
     }
 
-    open fun work() : String{
-        return ("$name đang làm việc")
+    override fun stopEngine(){
+        println("động cơ xe hơi đã tắt")
     }
 }
-class Student() : Person(){
-    var students : String? = null
 
-    fun setInfo(newName: String, newAge: Int, newAddress: String, newStudents: String){
-        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
-        this.students = newStudents
+class Motorcycle(): Vehicle(){
+    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
+        super.setInfo(newBrand = newBrand, newModel = newModel , newYear = newYear)
     }
-    override fun work() : String{
-        return ("${super.getInfo()}, đang học tập ở $students")
-    }
-}
 
-class Teacher() : Person(){
-    private var subject : String? = null
-    fun setInfo(newName: String, newAge: Int, newAddress: String, newSubject: String){
-        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
-        this.subject = newSubject
+    override fun starEngine(){
+        println("Động cơ xe máy đang được khởi động")
     }
-    override fun work() : String{
-        return ("${super.getInfo()} đang dạy môn $subject")
+
+    override fun stopEngine(){
+        println("Động cơ xe máy đã tắt ")
     }
 }
 
-class Engineer() : Person(){
-    private var company: String? = null
-
-    fun setInfo(newName: String, newAge: Int, newAddress: String, newCompany: String){
-        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
-        this.company = newCompany
+class Ship() : Vehicle(){
+    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
+        super.setInfo(newBrand = newBrand, newModel = newModel, newYear = newYear)
     }
 
-    override  fun work() : String{
-        return ("${super.getInfo()}, đang làm tại công ty $company")
-    }
-}
-
-class PersonManage(){
-    private val listWork = mutableListOf<Person>()
-
-    fun addWord(person: Person){
-        listWork.add(person)
+    override fun starEngine(){
+        println("Động cơ tàu đang được khởi động")
     }
 
-    fun remoteWord(person: Person){
-        listWork.remove(person)
-    }
-    fun showWord(){
-        listWork.forEach(){
-            println(it.work())
-        }
+    override fun stopEngine(){
+        println("Động cơ tàu đã được tắt")
     }
 }
 
 fun main() {
-    val personManage = PersonManage()
-    val student = Student()
-    val teacher = Teacher()
-    val engineer = Engineer()
-    student.setInfo(newName = "Hùng", newAge = 20, newAddress = "Gia lai", newStudents = "Gia định")
-    teacher.setInfo(newName = "Hùng", newAge = 21, newAddress = "Gia lai", newSubject = "android dev")
-    engineer.setInfo(newName = "Hùng", newAge = 22, newAddress = "Gia lai", newCompany = "ZERO")
-    personManage.addWord(student)
-    personManage.addWord(teacher)
-    personManage.addWord(engineer)
-    println("-------------------------------------------------")
-    personManage.showWord()
-    println("-------------------------------------------------")
+    val myCar = Car()
+    val myMotorcycle = Motorcycle()
+    val myShip = Ship()
+    myCar.setInfo(newBrand = "toyota", newModel = "Camry", newYear = 2013)
+    myMotorcycle.setInfo(newBrand = "Honda", newModel = "Z1000", newYear = 2012)
+    myShip.setInfo(newBrand = "Hyundai", newModel = "Grand Ace", newYear = 2019)
+    println("----------------------------")
+    myCar.starEngine()
+    println("----------------------------")
+    myCar.stopEngine()
+    println("----------------------------")
+    myMotorcycle.starEngine()
+    println("----------------------------")
+    myMotorcycle.stopEngine()
+    println("----------------------------")
+    myShip.starEngine()
+    println("----------------------------")
+    myShip.stopEngine()
 }
