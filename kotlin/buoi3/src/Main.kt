@@ -253,81 +253,144 @@ import kotlin.math.sin
 //    personManage.showWord()
 //    println("-------------------------------------------------")
 //}
+//
+//abstract class Vehicle(){
+//    private var brand : String? = null
+//    private var model: String? = null
+//    private var year : Int? = null
+//
+//    open fun setInfo(newBrand: String, newModel: String, newYear: Int){
+//        this.brand = newBrand
+//        this.model = newModel
+//        this.year = newYear
+//
+//    }
+//    abstract fun starEngine()
+//    abstract fun stopEngine()
+//}
+//
+//class Car(): Vehicle(){
+//    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
+//        super.setInfo(newBrand = newBrand, newModel = newModel, newYear = newYear)
+//    }
+//
+//    override fun starEngine(){
+//        println("động cơ xe hơi đang khởi động")
+//    }
+//
+//    override fun stopEngine(){
+//        println("động cơ xe hơi đã tắt")
+//    }
+//}
+//
+//class Motorcycle(): Vehicle(){
+//    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
+//        super.setInfo(newBrand = newBrand, newModel = newModel , newYear = newYear)
+//    }
+//
+//    override fun starEngine(){
+//        println("Động cơ xe máy đang được khởi động")
+//    }
+//
+//    override fun stopEngine(){
+//        println("Động cơ xe máy đã tắt ")
+//    }
+//}
+//
+//class Ship() : Vehicle(){
+//    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
+//        super.setInfo(newBrand = newBrand, newModel = newModel, newYear = newYear)
+//    }
+//
+//    override fun starEngine(){
+//        println("Động cơ tàu đang được khởi động")
+//    }
+//
+//    override fun stopEngine(){
+//        println("Động cơ tàu đã được tắt")
+//    }
+//}
+//
+//fun main() {
+//    val myCar = Car()
+//    val myMotorcycle = Motorcycle()
+//    val myShip = Ship()
+//    myCar.setInfo(newBrand = "toyota", newModel = "Camry", newYear = 2013)
+//    myMotorcycle.setInfo(newBrand = "Honda", newModel = "Z1000", newYear = 2012)
+//    myShip.setInfo(newBrand = "Hyundai", newModel = "Grand Ace", newYear = 2019)
+//    println("----------------------------")
+//    myCar.starEngine()
+//    println("----------------------------")
+//    myCar.stopEngine()
+//    println("----------------------------")
+//    myMotorcycle.starEngine()
+//    println("----------------------------")
+//    myMotorcycle.stopEngine()
+//    println("----------------------------")
+//    myShip.starEngine()
+//    println("----------------------------")
+//    myShip.stopEngine()
+//}
+ open   class Person(){
+    private var name : String? = null
+    private var age : String? = null
+    private var address : String? = null
 
-abstract class Vehicle(){
-    private var brand : String? = null
-    private var model: String? = null
-    private var year : Int? = null
-
-    open fun setInfo(newBrand: String, newModel: String, newYear: Int){
-        this.brand = newBrand
-        this.model = newModel
-        this.year = newYear
-
+    fun setInfo(newName: String, newAge: String, newAddress: String){
+        this.name = newName
+        this.age = newAge
+        this.address = newAddress
     }
-    abstract fun starEngine()
-    abstract fun stopEngine()
+    open fun getInfo() : String{
+        return "name ${name}, age ${age}, address ${address} "
+    }
 }
 
-class Car(): Vehicle(){
-    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
-        super.setInfo(newBrand = newBrand, newModel = newModel, newYear = newYear)
+class Student() : Person() {
+    private var studentId : String? =null
+    private var major : String? = null
+    private var gpa : Double? = null
+
+    fun setInfo(newName: String, newAge: String, newAddress: String, newStudenId: String, newMajor: String, newGpa: Double){
+        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
+        this.studentId = newStudenId
+        this.major = newMajor
+        this.gpa = newGpa
     }
 
-    override fun starEngine(){
-        println("động cơ xe hơi đang khởi động")
-    }
-
-    override fun stopEngine(){
-        println("động cơ xe hơi đã tắt")
-    }
-}
-
-class Motorcycle(): Vehicle(){
-    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
-        super.setInfo(newBrand = newBrand, newModel = newModel , newYear = newYear)
-    }
-
-    override fun starEngine(){
-        println("Động cơ xe máy đang được khởi động")
-    }
-
-    override fun stopEngine(){
-        println("Động cơ xe máy đã tắt ")
+    override fun getInfo() : String {
+        return "${super.getInfo()} studentID ${studentId} major ${major} gpa ${gpa}"
     }
 }
 
-class Ship() : Vehicle(){
-    override fun setInfo(newBrand: String, newModel: String, newYear: Int){
-        super.setInfo(newBrand = newBrand, newModel = newModel, newYear = newYear)
+class Lecturer() : Person(){
+    private var department :String? = null
+    private var yearsOfExperience : Int? = 0
+
+    fun setInfo(newName: String, newAge: String, newAddress: String, newDepartment: String, newYearsOfExperience : Int) {
+        super.setInfo(newName = newName, newAge = newAge, newAddress = newAddress)
+        this.department = newDepartment
+        this.yearsOfExperience = newYearsOfExperience
     }
 
-    override fun starEngine(){
-        println("Động cơ tàu đang được khởi động")
-    }
-
-    override fun stopEngine(){
-        println("Động cơ tàu đã được tắt")
+    override fun getInfo() : String {
+        return "${super.getInfo()}, deparment ${department}, yearOfExperence ${yearsOfExperience}"
     }
 }
 
-fun main() {
-    val myCar = Car()
-    val myMotorcycle = Motorcycle()
-    val myShip = Ship()
-    myCar.setInfo(newBrand = "toyota", newModel = "Camry", newYear = 2013)
-    myMotorcycle.setInfo(newBrand = "Honda", newModel = "Z1000", newYear = 2012)
-    myShip.setInfo(newBrand = "Hyundai", newModel = "Grand Ace", newYear = 2019)
-    println("----------------------------")
-    myCar.starEngine()
-    println("----------------------------")
-    myCar.stopEngine()
-    println("----------------------------")
-    myMotorcycle.starEngine()
-    println("----------------------------")
-    myMotorcycle.stopEngine()
-    println("----------------------------")
-    myShip.starEngine()
-    println("----------------------------")
-    myShip.stopEngine()
+data class Book(var title : String, var author : String, var publicationYear: Int, var isBorrowed: Boolean = false)
+
+class Library() {
+    var listBook = mutableListOf<Book>()
+
+    fun addBook(book: Book) {
+        listBook.add(book)
+    }
+    fun searchBooksByName(title: String) : List<Book> {
+        return listBook.filter {it.title == title}
+    }
+
+    fun searchBookByAuthor(author: String) : List<Book> {
+        return listBook.filter {it.author == author}
+    }
 }
