@@ -331,6 +331,7 @@ import kotlin.math.sin
 //    println("----------------------------")
 //    myShip.stopEngine()
 //}
+
  open   class Person(){
     private var name : String? = null
     private var age : String? = null
@@ -357,9 +358,12 @@ class Student() : Person() {
         this.major = newMajor
         this.gpa = newGpa
     }
+    fun getId() : String{
+        return "students ${studentId}"
+    }
 
     override fun getInfo() : String {
-        return "${super.getInfo()} studentID ${studentId} major ${major} gpa ${gpa}"
+        return "${super.getInfo()}, studentID ${studentId}, major ${major}, gpa ${gpa}"
     }
 }
 
@@ -393,4 +397,40 @@ class Library() {
     fun searchBookByAuthor(author: String) : List<Book> {
         return listBook.filter {it.author == author}
     }
+}
+class Manage(){
+    var listPerson = mutableListOf<Person>()
+
+    fun addPerson(person: Person){
+        listPerson.add(person)
+    }
+
+    fun removePerson(person: Person){
+        listPerson.remove(person)
+    }
+    fun findStudentById(id: String) : List<Student> {
+        return listPerson.filterIsInstance<Student>().filter{it.getId() == id}
+    }
+    fun showInfo(){
+        listPerson.forEach{
+            println(it.getInfo())
+        }
+    }
+}
+
+fun main() {
+    var listPerson = Manage()
+    var student = Student()
+    var student1 = Student()
+    val lecturer = Lecturer()
+    student.setInfo(newName = "Hùng", newAge = "20", newAddress = "Gia lai", newStudenId = "221402", newMajor = "LT", newGpa = 9.0 )
+    student1.setInfo(newName = "a", newAge = "22", newAddress = "GL", newStudenId = "221402", newMajor = "LT ANDROID", newGpa = 10.0)
+    lecturer.setInfo(newName = "Hùng", newAge = "25", newAddress = "Gia lai", newDepartment = "LT", newYearsOfExperience = 2)
+    listPerson.addPerson(student)
+    listPerson.addPerson(student1)
+    listPerson.addPerson(lecturer)
+    println("----------------------------------------------------------")
+//    listPerson.findStudentById(id = "221402")
+    println("---------------------------------------------------------")
+    listPerson.showInfo()
 }

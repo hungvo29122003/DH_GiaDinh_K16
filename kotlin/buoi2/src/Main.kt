@@ -29,7 +29,7 @@
 ////    lọc students có tuổi dưới 16
 //    val studentsUnder16 = students.filter {it.age < 16}
 //    // tìm những studen có tên Long
-//   val studentLong =  students.find {it.name == "Long"}
+    //   val studentLong =  students.find {it.name == "Long"}
 //it là duyệt từ đầu đến cuối danh sách
 //
 //    students.forEach {
