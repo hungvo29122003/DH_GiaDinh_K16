@@ -1,4 +1,4 @@
-import buoi2.abstact.HightSchool
+import abstact.HightSchool
 
 fun main() {
     val hightSchool = HightSchool()

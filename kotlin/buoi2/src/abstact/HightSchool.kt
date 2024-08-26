@@ -1,4 +1,4 @@
-package buoi2.abstact
+package abstact
 
 class HightSchool() : School(),Manage  {
      override var size : Int = 100

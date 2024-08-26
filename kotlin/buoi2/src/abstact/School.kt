@@ -1,4 +1,4 @@
-package buoi2.abstact
+package abstact
 
   abstract class School {
     abstract var size : Int
