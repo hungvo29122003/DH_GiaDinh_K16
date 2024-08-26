@@ -5,7 +5,7 @@ package buoi2.abstact
     var price : Double = 0.0
 
       open fun create(){
-        println("2")
+        println("1")
       }
       abstract fun add()
  }

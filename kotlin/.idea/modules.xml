@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/buoi1/buoi1.iml" filepath="$PROJECT_DIR$/buoi1/buoi1.iml" />
       <module fileurl="file://$PROJECT_DIR$/buoi2/buoi2.iml" filepath="$PROJECT_DIR$/buoi2/buoi2.iml" />
       <module fileurl="file://$PROJECT_DIR$/buoi3/buoi3.iml" filepath="$PROJECT_DIR$/buoi3/buoi3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/buoii3/buoii3.iml" filepath="$PROJECT_DIR$/buoii3/buoii3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kotlin.iml" filepath="$PROJECT_DIR$/.idea/kotlin.iml" />
     </modules>
   </component>
