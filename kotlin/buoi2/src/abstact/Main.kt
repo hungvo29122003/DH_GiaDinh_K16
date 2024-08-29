@@ -1,4 +1,4 @@
-import abstact.HightSchool
+package abstact
 
 fun main() {
     val hightSchool = HightSchool()

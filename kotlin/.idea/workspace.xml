@@ -5,18 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f5cde8-0586-4d3d-8f54-55f81b865a74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/buoi3/buoi3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buoi1/buoi1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test/buoi1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buoi1/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Action.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Administer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Cat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Bicycle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/EnginePoweredVehical.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/ManageVehicle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Motorcrycle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Vehicle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buoi2/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buoi2/src/abstact/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/buoi2/META-INF/buoi2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/buoi2/META-INF/buoi2.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/buoi2/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/buoi2/MainKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,16 +55,28 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Main.kt.executor": "Run",
+    "Kotlin.MainKt (1).executor": "Run",
+    "Kotlin.MainKt (2).executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Dev",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Dev/kotlin/buoi3/src/Main.kt",
+    "last_opened_file_path": "D:/Dev/kotlin/buoi2/src/abstact",
+    "onboarding.tips.debug.path": "D:/Dev/kotlin/buoi2/src/Main.kt",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\kotlin\buoi2\src\abstact" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\kotlin\buoi2\src\abstact" />
+      <recent name="D:\Dev\kotlin\buoi2\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="buoi2" />
@@ -55,18 +85,35 @@
       </method>
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="abstact.MainKt" />
       <module name="buoi3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vehicleabstract.MainKt" />
+      <module name="buoi2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstact.MainKt" />
+      <module name="buoi2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Kotlin.MainKt (2)" />
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin.MainKt (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (2)" />
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
