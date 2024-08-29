@@ -18,4 +18,10 @@ class ManageVehicle {
             vehicle.checkSpeed()
         }
     }
+
+    fun checkSpeedMoveForAllVehicles(){
+        listVehicle.forEach{ vehicle ->
+            vehicle.checkSpeedMove()
+        }
+    }
 }

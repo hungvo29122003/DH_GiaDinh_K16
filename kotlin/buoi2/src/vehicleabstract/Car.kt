@@ -16,15 +16,15 @@ class Car : Vehicle(), EnginePoweredVehical {
 //    }
 
     override fun move() {
-        println(" xe ${super.getName()}  đang di chuyển ")
+        println("xe ${super.getName()}  đang di chuyển ")
     }
 
     override fun stop() {
-        println(" xe ${super.getName()} đang dừng lại ")
+        println("xe ${super.getName()} đang dừng lại ")
     }
 
     override fun accelerate() {
-        println(" xe ${super.getName()} đang tăng tốc")
+        println("xe ${super.getName()} đang tăng tốc")
     }
 
     override fun decelerate() {

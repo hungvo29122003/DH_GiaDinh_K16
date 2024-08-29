@@ -13,18 +13,18 @@ class Motorcrycle : Vehicle(), EnginePoweredVehical {
     }
 
     override fun move() {
-        println("xe ${super.getName()}, đang đi chuyển")
+        println("xe ${super.getName()} đang đi chuyển")
     }
 
     override fun stop() {
-        println("xe ${super.getName()}, đang dừng lại")
+        println("xe ${super.getName()} đang dừng lại")
     }
 
     override fun accelerate() {
-        println("xe ${super.getName()}, đang tăng tốc")
+        println("xe ${super.getName()} đang tăng tốc")
     }
 
     override fun decelerate() {
-        println("xe ${super.getName()}, đang giảm tốc")
+        println("xe ${super.getName()} đang giảm tốc")
     }
 }

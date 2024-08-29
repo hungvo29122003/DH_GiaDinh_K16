@@ -8,7 +8,7 @@ fun main() {
 
     car.setInfo(newName = "BMW", newColor = "blue", newNumberOfWheels = 4, newSpeed = 100, newNumberOfSeats = 4, newEnginePower = 2.5 )
     motorcrycle.setInfo(newName = "Honda Wave", newColor = "white", newNumberOfWheels = 2, newSpeed = 80, newEnginePower = 125.0)
-    bicycle.setInfo(newName = "Giant", newColor = "yellow", newNumberOfWheels = 2, newSpeed = 20, newVehicalType = "xe đạp địa hình")
+    bicycle.setInfo(newName = "Giant", newColor = "yellow", newNumberOfWheels = 2, newSpeed = 0, newVehicalType = "xe đạp địa hình")
     manageVehicle.addVehical(car)
     manageVehicle.addVehical(motorcrycle)
     manageVehicle.addVehical(bicycle)
@@ -31,4 +31,6 @@ fun main() {
     bicycle.decelerate()
     println("xe vi phạm giao thông")
     manageVehicle.checkSpeedForAllVehicles()
+    println("phương tiện nào đang lưu thông và không lưu thông")
+    manageVehicle.checkSpeedMoveForAllVehicles()
 }

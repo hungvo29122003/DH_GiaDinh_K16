@@ -17,6 +17,7 @@ abstract class Vehicle {
         this.numberOfWheels = newNumberOfWheels
         this.speed = newSpeed
     }
+    
     open fun getName() : String {
         return "$name"
     }
@@ -43,7 +44,15 @@ abstract class Vehicle {
 //            }
 //        }
         if (speed!! > 60) {
-            println(" xe $name đã vi phạm tốc độ với tốc độ xe đang đi là $speed ")
+            println("xe $name đã vi phạm tốc độ với tốc độ xe đang đi là $speed km/h ")
+        }
+    }
+
+    fun checkSpeedMove(){
+        if (speed!! > 0){
+            move()
+        } else {
+            stop()
         }
     }
 

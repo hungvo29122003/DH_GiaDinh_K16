@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f5cde8-0586-4d3d-8f54-55f81b865a74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Action.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Administer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Cat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Dog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/animalabstact/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Bicycle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/EnginePoweredVehical.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/ManageVehicle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Motorcrycle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Vehicle.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buoi2/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buoi2/src/abstact/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/buoi2/META-INF/buoi2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/buoi2/META-INF/buoi2.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/buoi2/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/buoi2/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buoi2/src/vehicleabstract/ManageVehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/ManageVehicle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Vehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buoi2/src/vehicleabstract/Vehicle.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
