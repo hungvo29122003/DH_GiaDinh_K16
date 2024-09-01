@@ -17,7 +17,7 @@ abstract class Vehicle {
         this.numberOfWheels = newNumberOfWheels
         this.speed = newSpeed
     }
-    
+
     open fun getName() : String {
         return "$name"
     }
