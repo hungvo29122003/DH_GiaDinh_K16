@@ -64,3 +64,4 @@ abstract class Vehicle {
 
     abstract fun stop()
 }
+
