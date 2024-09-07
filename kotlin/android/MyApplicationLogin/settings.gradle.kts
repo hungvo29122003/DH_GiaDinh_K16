@@ -19,7 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "constractLayout"
-include(":app")
+rootProject.name = "My Application Login"
 include(":app")
  
