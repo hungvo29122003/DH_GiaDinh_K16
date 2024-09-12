@@ -8,11 +8,14 @@
     android:layout_height="match_parent"
     tools:context=".SingUpActivity">
  <EditText
+     android:id="@+id/ed_Text_SignUp"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:text="SingUp"
+     app:layout_constraintTop_toTopOf="parent"
      app:layout_constraintStart_toStartOf="parent"
      android:textSize="50dp"
-     android:textColor="#0277BD"/>
+     android:textColor="#0277BD"
+     android:background="@color/white"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
