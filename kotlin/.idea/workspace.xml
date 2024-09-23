@@ -5,112 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4f5cde8-0586-4d3d-8f54-55f81b865a74" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_DEV/test/test/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android_Java/MyApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android_Java/MyApplication/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/deploymentTargetSelector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/migrations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/androidTest/java/com/example/myapplicationlogin/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/java/com/example/myapplicationlogin/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/drawable/ic_lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/drawable/ic_lock1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/drawable/ic_vector.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/drawable/ic_vector1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/app/src/test/java/com/example/myapplicationlogin/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/MyApplicationLogin/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/deploymentTargetSelector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/migrations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/androidTest/java/com/example/constractlayout/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/java/com/example/constractlayout/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/java/com/example/constractlayout/SingUpActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/drawable/button_login_fb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/drawable/button_login_gg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/drawable/ic_eye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/drawable/ic_gg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/drawable/ic_logo_fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/layout/activity_sing_up.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/app/src/test/java/com/example/constractlayout/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/learn/settings.gradle.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,27 +41,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Main.kt.executor": "Run",
-    "Kotlin.MainKt (1).executor": "Run",
-    "Kotlin.MainKt (2).executor": "Run",
-    "Kotlin.MainKt (3).executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Dev",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Learn/kotlin",
-    "onboarding.tips.debug.path": "D:/Dev/kotlin/buoi2/src/Main.kt",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (2).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (3).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learn/Java_DEV&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Dev/kotlin/buoi2/src/Main.kt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Dev\kotlin\buoi2\src\abstact" />
