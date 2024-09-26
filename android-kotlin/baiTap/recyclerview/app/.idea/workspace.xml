@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97bb71a4-7448-439c-8be6-af0ab4fe8fee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Android_Java/homework/Application_FaceBook/app/src/main/java/com/example/application_facebook/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android_Java/homework/Application_FaceBook/app/src/main/java/com/example/application_facebook/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Java/homework/Application_FaceBook/app/src/main/res/drawable/custom_question_mark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android_Java/homework/Application_FaceBook/app/src/main/res/drawable/custom_help_emoji.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Java/homework/Application_FaceBook/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Android_Java/homework/Application_FaceBook/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ES6/Lab2/Bai4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ES6/Lab2/Bai4.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2mYLVCXQYZF8URqsDJo3AVLwDBu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Exercise/android-kotlin/recyclerview/app"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97bb71a4-7448-439c-8be6-af0ab4fe8fee" name="Changes" comment="" />
+      <created>1727248583795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727248583795</updated>
+    </task>
+    <servers />
+  </component>
+</project>
