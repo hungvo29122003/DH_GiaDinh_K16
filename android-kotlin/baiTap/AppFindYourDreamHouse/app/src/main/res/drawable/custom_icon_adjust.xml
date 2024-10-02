@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    vòng tròn nền trắng-->
+    <item>
+        <shape android:shape="oval" >
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+<!--    biểu tượng điều chỉnh -->
+    <item
+        android:drawable="@drawable/img_adjust"
+        android:gravity="center"
+        android:width="37dp"
+        android:height="37dp"/>
+</layer-list>
