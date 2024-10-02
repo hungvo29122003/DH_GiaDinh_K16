@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Cho các loại kem sau : "
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:id="@+id/cb_kemOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_title1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:text=" Kem bơ"
+        android:textSize="30sp"/>
+    <CheckBox
+        android:id="@+id/cb_kemOption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cb_kemOption1"
+        app:layout_constraintStart_toStartOf="@id/cb_kemOption1"
+        android:text=" Kem sầu riêng"
+        android:textSize="30sp"/>
+    <CheckBox
+        android:id="@+id/cb_kemOption3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cb_kemOption2"
+        app:layout_constraintStart_toStartOf="@id/cb_kemOption2"
+        android:text=" Kem dâu"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/tv_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cb_kemOption3"
+        android:text="Chọn size"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_title2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb_Option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" S"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:id="@+id/rb_Option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" M"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:id="@+id/rb_Option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" L"
+            android:textSize="30sp"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tv_title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        android:text="Bạn đã chọn kem"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_ShowKemOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_title3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="Loại kem"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/tv_ShowOptionSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_ShowKemOption"
+        app:layout_constraintStart_toStartOf="@id/tv_ShowKemOption"
+        android:hint="Size"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+/>
+
+        
+</androidx.constraintlayout.widget.ConstraintLayout>

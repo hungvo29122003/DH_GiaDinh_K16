@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="234.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerCal">
+   <children>
+      <TextField fx:id="textField1" prefHeight="25.0" prefWidth="235.0" />
+      <TextField fx:id="textField2" prefHeight="25.0" prefWidth="235.0" />
+      <Button mnemonicParsing="false" onAction="#hanhDongTinhTong" text="+" />
+      <Button mnemonicParsing="false" onAction="#hanhDongTinhHieu" text="-" />
+      <TextField fx:id="textFieldKetQua" prefHeight="25.0" prefWidth="165.0" />
+   </children>
+</FlowPane>
