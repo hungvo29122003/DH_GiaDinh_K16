@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AppFindYourDreamHouse</string>
+    <string name="findYourDreamHouse">Find Your \nDream House</string>
+    <string name="search">Search</string>
+    <string name="recent">Recent</string>
+    <string name="viewAll">View All</string>
+    <string name="bestFromYou">Best from you</string>
+    <string name="titleHouse">ABC</string>
+    <string name="price">$3,999</string>
+    <string name="textbtnSeeDetails">See Details</string>
+
 </resources>

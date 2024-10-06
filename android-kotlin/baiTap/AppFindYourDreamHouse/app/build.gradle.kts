@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.example.appfindyourdreamhouse"
         minSdk = 28
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -24,6 +24,11 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+        android {
+            buildFeatures {
+                viewBinding = true
+            }
         }
     }
     compileOptions {

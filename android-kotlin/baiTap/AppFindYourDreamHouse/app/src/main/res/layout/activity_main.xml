@@ -11,29 +11,29 @@
         android:id="@+id/tv_FindYourDreamHouse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Find Your \nDream House"
-        android:textSize="35sp"
-        android:textColor="#EEF5F8"
+        android:text="@string/findYourDreamHouse"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhiteText"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         />
-
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
         android:src="@drawable/img_notifications"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_FindYourDreamHouse" />
+        app:layout_constraintBottom_toBottomOf="@id/tv_FindYourDreamHouse" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cv1"
+        android:id="@+id/cvSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="18dp"
         android:background="@color/white"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="100dp"
@@ -43,30 +43,159 @@
             android:id="@+id/eb_Search"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Search"
+            android:hint="@string/search"
             android:background="@color/white"
-            android:textSize="25dp"
+            android:textSize="18sp"
+            android:inputType="text"
             android:textColorHint="#81ADA7"
             android:paddingVertical="15dp"
-            android:layout_marginStart="60dp"/>
+            android:layout_marginStart="50dp"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
             android:src="@drawable/baseline_search_24"
-            android:scaleX="1.4"
-            android:scaleY="1.4"/>
+            />
     </androidx.cardview.widget.CardView>
     <ImageView
         android:id="@+id/iv"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
         android:background="@drawable/custom_icon_adjust"
-        app:layout_constraintBottom_toBottomOf="@id/cv1"
-        app:layout_constraintStart_toEndOf="@id/cv1"
+        app:layout_constraintBottom_toBottomOf="@id/cvSearch"
+        app:layout_constraintStart_toEndOf="@id/cvSearch"
         android:layout_marginStart="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/cvSearch"
+        app:layout_constraintBottom_toBottomOf="parent" >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="200dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvBtnItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="18dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+                tools:listitem="@layout/buttonitem">
+            </androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:id="@+id/tv_Recent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recent"
+                android:textColor="@color/colorWhiteText"
+                app:layout_constraintTop_toBottomOf="@id/rcvBtnItem"
+                app:layout_constraintStart_toStartOf="@id/rcvBtnItem"
+                android:layout_marginTop="18sp"
+                android:paddingStart="20dp"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/tv_ViewAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewAll"
+                app:layout_constraintTop_toTopOf="@id/tv_Recent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="30dp"
+                android:textColor="#BFBDA9"
+                android:textSize="14sp"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_CardHouse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tv_ViewAll"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+                tools:listitem="@layout/card_house_item"
+                android:layout_marginTop="18dp">
+            </androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:id="@+id/tv_BestFromYou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bestFromYou"
+                android:textSize="15sp"
+                android:paddingStart="20dp"
+                app:layout_constraintStart_toStartOf="@id/tv_Recent"
+                app:layout_constraintTop_toBottomOf="@id/rcv_CardHouse"
+                android:layout_marginTop="18dp"
+                android:textColor="#E6ECEB"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewAll"
+                android:textSize="14sp"
+                android:textColor="#BFBDA9"
+                app:layout_constraintBottom_toBottomOf="@id/tv_BestFromYou"
+                app:layout_constraintEnd_toEndOf="@id/tv_ViewAll" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:background="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/tv_BestFromYou"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="20dp"
+                >
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:clipToOutline="true"
+                    app:shapeAppearanceOverlay="@style/Coner"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/custom_img_house" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titleHouse"
+                    android:layout_marginStart="20dp"
+                    android:textColor="#2F4E4E"
+                    android:textSize="15sp"
+                    android:layout_marginTop="175dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price"
+                    android:textColor="#055A4E"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="200dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="214dp"
+                    android:text="Monthly Rent"
+                    android:textColor="#146559"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textbtnSeeDetails"
+                    android:textSize="11sp"
+                    android:textColor="#12604B"
+                    android:textStyle="bold"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginStart="244dp"
+                    android:background="@drawable/custon_btn_see_details"/>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
