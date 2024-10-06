@@ -70,5 +70,45 @@ class MainActivity : AppCompatActivity() {
         binding.rcvCardHouse.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         binding.rcvCardHouse.adapter = houseAdapter
 
+        var listHouseCard = mutableListOf(
+            ListHousePost(
+                "ABC",
+                "Monthly Rent",
+                "$3,980",
+                R.drawable.img_house,
+                "See Details"
+            ),
+            ListHousePost(
+                "ABC",
+                "Monthly Rent",
+                "$3,990",
+                R.drawable.img_house,
+                "See Details"
+            ),
+            ListHousePost(
+                "ABC",
+                "Monthly Rent",
+                "$3,920",
+                R.drawable.img_house,
+                "See Details"
+            ),
+            ListHousePost(
+                "ABC",
+                "Monthly Rent",
+                "$3,910",
+                R.drawable.img_house,
+                "See Details"
+            ),
+            ListHousePost(
+                "ABC",
+                "Monthly Rent",
+                "$3,900",
+                R.drawable.img_house,
+                "See Details"
+            ),
+        )
+        var listHouseAdapter = ListHouseAdapter(listHouseCard)
+        binding.rcvListHouseCard.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        binding.rcvListHouseCard.adapter = listHouseAdapter
     }
 }
