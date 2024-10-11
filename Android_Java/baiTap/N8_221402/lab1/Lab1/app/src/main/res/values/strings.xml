@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="tvLoading">Loading...</string>
+    <string name="tvWelcome">WELCOME TO \n<b>FURNITURE</b></string>
+    <string name="edtUserName">UserName</string>
+    <string name="imgUserName">icon userName</string>
+    <string name="edtPassword">Password</string>
+    <string name="imgPassword">icon password</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="imgFacebook">icon facebook</string>
+    <string name="btnLoginFacebook">FACEBOOK</string>
+    <string name="btnLoginGoogle">GOOGLE</string>
+    <string name="imgGoogle">icon google</string>
+    <string name="btnRegister">REGISTER NOW</string>
+    <string name="tvAccountInfo">Account Info</string>
+    <string name="tvSave">SAVE</string>
+    <string name="edtName">Name</string>
+    <string name="imgInfo">icon info</string>
+    <string name="edEmail">Email</string>
+    <string name="edConfirmPassword">Confirm password</string>
+    <string name="rbMale">Male</string>
+    <string name="rbFemale">Female</string>
+    <string name="tvCreateAccount">Create Account</string>
+    <string name="btnSignIn">sign in</string>
+    <string name="btnCancel">cancel</string>
+    <string name="btnOk">ok</string>
+</resources>

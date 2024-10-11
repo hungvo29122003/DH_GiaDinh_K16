@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ItemDecoration
 import com.example.appfindyourdreamhouse.databinding.ActivityMainBinding
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +27,8 @@ class MainActivity : AppCompatActivity() {
             ButtonPost("Bachelor"),
             ButtonPost("Family"),
             ButtonPost("Office"),
-            ButtonPost("Sublet")
+            ButtonPost("Sublet"),
+            ButtonPost("Abc")
         )
         var buttonAdapter = ButtonAdapter(buttons)
         //        val rcvButtonItem = binding.rcvBtnItem
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 "Jl. Sultan Iskandar Muda",
                 "Monthly Rent",
                 "$3,850",
-                R.drawable.img_house1
+                R.drawable.img_house
             ),
             HousePost(
                 "Dreamsville House",

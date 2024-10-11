@@ -30,9 +30,7 @@ public class ControllerStudent implements Initializable {
 		student = new ModelStudent(123, "Nguyễn Thị Tý", "0901111111", LocalDateTime.now());
 		view = new ViewStudent();
 		view.showDetail(student, textFieldid, textFieldFullName, textFieldPhoneNumber);
-		
 	}
-	
 	public void actionButton(ActionEvent event) {
 		student.update(textFieldid, textFieldFullName, textFieldPhoneNumber);
 		save();
@@ -45,5 +43,4 @@ public class ControllerStudent implements Initializable {
 			view.ShowErrorMessage();
 		}
 	}
-
 }
