@@ -1,5 +1,6 @@
 package com.example.appfindyourdreamhouse
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -24,19 +25,19 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         val buttons = mutableListOf(
-            ButtonPost("Bachelor"),
-            ButtonPost("Family"),
-            ButtonPost("Office"),
-            ButtonPost("Sublet"),
-            ButtonPost("Abc")
+            ButtonPost("Bachelor", isSelected = false),
+            ButtonPost("Family", isSelected = false),
+            ButtonPost("Office", isSelected = false),
+            ButtonPost("Sublet", isSelected = false),
+            ButtonPost("Abc", isSelected = false)
         )
-        var buttonAdapter = ButtonAdapter(buttons)
+        val buttonAdapter = ButtonAdapter(buttons)
         //        val rcvButtonItem = binding.rcvBtnItem
         //        rcvButtonItem.adapter = buttonAdapter
+        binding.rcvBtnItem.adapter = buttonAdapter
         binding.rcvBtnItem.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        binding.rcvBtnItem.adapter = buttonAdapter
-        val houseList = mutableListOf(
+        val listHouse = mutableListOf(
             HousePost(
                 "Dreamsville House",
                 "Jl. Sultan Iskandar Muda",
@@ -48,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                 "Dreamsville House",
                 "Jl. Sultan Iskandar Muda",
                 "Monthly Rent",
-                "$3,850",
+                "$4,850",
                 R.drawable.img_house1
             ),
             HousePost(
@@ -66,27 +67,33 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.img_house1
             )
         )
-        var houseAdapter = HouseAdapter(houseList)
+        var houseAdapter = HouseAdapter(listHouse)
         binding.rcvCardHouse.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         binding.rcvCardHouse.adapter = houseAdapter
+        houseAdapter.onItemClick = { position ->
+            println("check: ${listHouse.get(position)}")
+            val intent = Intent(this, DetailsPostHouse::class.java)
+            intent.putExtra("house", listHouse.get(position))
+            startActivity(intent)
+        }
 
         var listHouseCard = mutableListOf(
             ListHousePost(
-                "ABC",
+                "ABCD",
                 "Monthly Rent",
                 "$3,980",
                 R.drawable.img_house,
                 "See Details"
             ),
             ListHousePost(
-                "ABC",
+                "ABCA",
                 "Monthly Rent",
                 "$3,990",
                 R.drawable.img_house,
                 "See Details"
             ),
             ListHousePost(
-                "ABC",
+                "ABCC",
                 "Monthly Rent",
                 "$3,920",
                 R.drawable.img_house,

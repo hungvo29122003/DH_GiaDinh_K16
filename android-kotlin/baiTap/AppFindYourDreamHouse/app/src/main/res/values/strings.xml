@@ -8,5 +8,10 @@
     <string name="titleHouse">ABC</string>
     <string name="price">$3,999</string>
     <string name="textbtnSeeDetails">See Details</string>
-
+    <string name="textTitleHouse">Dreamsville House</string>
+    <string name="textStretName">jl. Sultan Iskandar Mude</string>
+    <string name="textMonthlyRent">Monthly Rent</string>
+    <string name="textDescribe">Welcome To Your New Home! This Modern And \nSpacious 2-Bedroom Apartment Is Located In The Heart \nOf San Francisco, Offering Convenience, Comfort, And \nStyle</string>
+    <string name="textButonContentIsLocked">Content is locked</string>
+    <string name="textButtonUnlockContact">Unlock Contact</string>
 </resources>

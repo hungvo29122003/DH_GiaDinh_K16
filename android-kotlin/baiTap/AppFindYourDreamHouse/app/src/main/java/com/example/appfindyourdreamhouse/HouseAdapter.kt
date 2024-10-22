@@ -21,9 +21,9 @@ class HouseAdapter(private val list: MutableList<HousePost>) :
         fun onBind(housePost: HousePost) {
             binding.imgvDreamHouse1.setImageResource(housePost.imgHouse)
             binding.tvHouseTitle.text = housePost.titleHouse
-            binding.tvStreetName.text = housePost.street_name
+            binding.tvStreetName.text = housePost.streetName
             binding.tvPrice.text = housePost.price
-            binding.tvMonthlyRent.text = housePost.monthly_Rent
+            binding.tvMonthlyRent.text = housePost.monthlyRent
         }
     }
 

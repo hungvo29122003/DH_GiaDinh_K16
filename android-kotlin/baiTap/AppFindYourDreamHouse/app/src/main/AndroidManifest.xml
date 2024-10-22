@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppFindYourDreamHouse"
         tools:targetApi="31">
         <activity
+            android:name=".DetailsPostHouse"
+            android:exported="false" />
+        <activity
             android:name=".ListHouseActivity"
             android:exported="false" />
         <activity

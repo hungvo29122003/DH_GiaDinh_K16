@@ -12,10 +12,10 @@
         android:id="@+id/btnText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/custom_btn_item"
+        android:background="@drawable/button_selector_with_selected"
         android:paddingHorizontal="22dp"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@drawable/button_text_color_state_list"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         />

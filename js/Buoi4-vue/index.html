@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VUE_JS</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- muốn thay đổi giá trị của thuộc tính 
+       c1. v-bind:thuoctinh="tenbien"
+       c. :thuoctinh="tenbien" -->
+      <img :src="image" :alt="" style="width: 50%" />
+
+      <p>Họ và tên: {{ten}}</p>
+      <p>Tuổi: {{tuoi}}</p>
+
+      <!-- dùng v-html="tenbien" -->
+      <p v-html="rawHTML"></p>
+      <p>Thực hiện phép tính đơn giản</p>
+      <p>{{count+10}}</p>
+      <p>{{ok?"đúng":"sai"}}</p>
+
+      <p>Thực hiện 2 chiều</p>
+      <!-- v-model="tenbien" dùng trong input -->
+      <!-- vừa thao tác vừa hiển thị giá trị -->
+      <!-- <input type="text" v-model="name" /> -->
+
+      <!-- thao tác xong mới hiển thị giá trị -->
+      <!-- <input type="text" v-model.lazy="name" /> -->
+
+      <!-- number đổi chuỗi thành số -->
+      <!-- <input type="text" v-model.number="name" /> -->
+
+      <!-- trim cắt bỏ những khoản trắng -->
+      <input type="text" v-model.trim="name" />
+      <p>Hiển thị tên: {{name}}</p>
+      <!-- <p>Sự kiện v-on:click="phương thức đơn giản như cộng trừ nhân chia"</p> -->
+      <p>{{count}}</p>
+      <button v-on:click="count++">click me</button>
+      <!-- sự kiện phức tạp thì thực hiện ở phương thức -->
+      <button v-on:click="dosomething">Hiển thị</button>
+      <button @click="dosomething">Hiển thị</button>
+
+      <div @click.self="alertHello">
+        <!-- stop ngăn cha làm, nhưng đặt stop ở con -->
+        <button @click.stop="alertWelcome()">Click here</button>
+      </div>
+
+      <div @click.self="alertHello">
+        <!-- self ngăn chặn sự kiện cha xảy ra dặt trực tiếp ở cha -->
+        <button @click="alertWelcome()">Click here</button>
+      </div>
+
+      <div @click.capture="alertHello">
+        <!-- capture cha làm trước con làm sau -->
+        <button @click="alertWelcome()">Click here</button>
+      </div>
+
+      <p>Làm việc với form sẽ bị load lại</p>
+      <!-- prevent nagwn chặn việc load lại trang -->
+      <form action="" v-on:submit.prevent>
+        <button type="submit">Click form</button>
+      </form>
+
+      <form action="">
+        <button type="submit" @click.prevent>Click form</button>
+      </form>
+
+      <!-- @key.phim="phuongthuc" -->
+      <p>Sự kiện phím enter</p>
+      <input type="text" @keyup.enter="ptphim()" />
+
+      <p>Sự kiện phím alt+enter</p>
+      <input type="text" @keyup.alt.enter="ptphim()" />
+
+      <p>Sự kiện chuột phải</p>
+      <input type="text" @click.right="ptphim()" />
+
+      <p>Sự kiện chuột trái</p>
+      <input type="text" @click.left="ptphim()" />
+
+      <p>Sự kiện chuột giữa</p>
+      <input type="text" @click.middel="ptphim()" />
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="main.js"></script>
+
+    <!-- <script>
+      const mountedApp = app.mount("#app");
+    </script> -->
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tvTTDk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông Tin đăng ký câu lạc bộ"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:background="#6A9E37"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp"
+                android:textColor="#FF8F00"/>
+            <TextView
+                android:id="@+id/tvHoVaTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ Và Tên:"
+                android:textSize="15sp"
+                app:layout_constraintTop_toBottomOf="@id/tvTTDk"
+                app:layout_constraintStart_toStartOf="@id/tvTTDk"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:id="@+id/tvMssv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MSSV:"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@id/tvHoVaTen"
+                app:layout_constraintTop_toBottomOf="@id/tvHoVaTen"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:id="@+id/edtHoVaTenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tvTTDk"
+                android:layout_marginStart="150dp"
+                android:inputType="text"
+                android:layout_marginEnd="20dp"
+                android:hint="vui lòng nhập họ và tên "/>
+            <EditText
+                android:id="@+id/edtMssvText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/edtHoVaTenText"
+                android:layout_marginStart="150dp"
+                android:layout_marginEnd="20dp"
+                android:hint="vui lòng nhập mssv"
+                android:inputType="number"/>
+            <DatePicker
+                android:id="@+id/datapicker1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                app:layout_constraintTop_toBottomOf="@id/edtMssvText"/>
+
+            <TextView
+                android:id="@+id/tvSeletedCLB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6A9E37"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:text="chọn câu lạc bộ"
+                android:textAllCaps="false"
+                android:textColor="#FF8F00"
+                android:textSize="25sp"
+                app:layout_constraintTop_toBottomOf="@id/datapicker1"
+                android:layout_marginTop="20dp"
+                
+                 />
+            <CheckBox
+                android:id="@+id/chkBongDa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/tvSeletedCLB"
+                app:layout_constraintStart_toStartOf="@id/tvSeletedCLB"
+                android:text="Bóng đá"
+                android:textSize="15sp"/>
+            <CheckBox
+                android:id="@+id/chkNhacKich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhạc kịch"
+                app:layout_constraintTop_toTopOf="@id/chkBongDa"
+                app:layout_constraintStart_toEndOf="@id/chkBongDa"
+                android:textSize="15sp"/>
+            <CheckBox
+                android:id="@+id/chkKỹThuat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kỹ Thuật"
+                app:layout_constraintTop_toTopOf="@id/chkBongDa"
+                app:layout_constraintStart_toEndOf="@id/chkNhacKich"
+                android:textSize="15sp"/>
+            <CheckBox
+                android:id="@+id/chkVanHoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="văn học"
+                app:layout_constraintTop_toTopOf="@id/chkBongDa"
+                app:layout_constraintStart_toEndOf="@id/chkKỹThuat"
+                android:textSize="15sp"/>
+            <EditText
+                android:id="@+id/edtLyDoThamGia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lý do tham gia (không bắt buộc)"
+                app:layout_constraintTop_toBottomOf="@id/chkBongDa"
+                android:layout_marginHorizontal="20dp"/>
+            <Button
+                android:id="@+id/btnDangKy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                app:layout_constraintTop_toBottomOf="@id/edtLyDoThamGia"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="150dp"
+                android:layout_marginBottom="20dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
