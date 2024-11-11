@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <item-->
+<!--        android:id="@+id/item_add"-->
+<!--        android:title="Add"-->
+<!--        android:icon="@drawable/baseline_add_24"-->
+<!--        app:showAsAction="ifRoom"/>-->
+<!--    <item-->
+<!--        android:id="@+id/item_question"-->
+<!--        android:title="Question"-->
+<!--        android:icon="@drawable/baseline_question_mark_24"-->
+<!--        app:showAsAction="ifRoom"/>-->
+    <item
+            android:id="@+id/item_add"
+            android:title="Add"
+            />
+        <item
+            android:id="@+id/item_delete"
+            android:title="Delete"
+            />
+    <item
+        android:title="Contact">
+        <menu>
+            <item android:title="Phone"/>
+            <item android:title="Email"/>
+        </menu>
+    </item>
+</menu>

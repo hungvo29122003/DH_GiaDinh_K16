@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="417b271f-447d-4371-b7d1-995049edbf57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/java/com/example/girdview/DemoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/java/com/example/girdview/HouseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/java/com/example/girdview/HouseItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/java/com/example/girdview/House_Item_Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/res/drawable/baseline_question_mark_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/res/drawable/img_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/res/layout/activity_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/res/layout/activity_house_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/res/menu/menu_comtext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/GirdView/app/src/main/res/menu/menu_option.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/androidTest/java/com/example/listview/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/java/com/example/listview/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/java/com/example/listview/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/java/com/example/listview/SinhVienAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/layout/item_sinhvien.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/app/src/test/java/com/example/listview/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Android_Java/ListView/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Nhom4_QLHDKhachSan/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/QLHDKhachSan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/database/AddInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/database/DAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/database/EditInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/database/FindInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/database/GetListInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/entity/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/entity/InvoiceGio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/entity/InvoiceNgay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/MainGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/addInvoice/AddInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/addInvoice/AddInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/addInvoice/AddInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/addInvoice/AddInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/deleteInvoice/DeleteInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/deleteInvoice/DeleteInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/deleteInvoice/DeleteInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/deleteInvoice/DeleteInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/editInvoice/EditInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/editInvoice/EditInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/editInvoice/EditInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/editInvoice/EditInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/findInvoice/FindInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/findInvoice/FindInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/findInvoice/FindInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/findInvoice/FindInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/getListInvoice/GetListInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/getListInvoice/GetListInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/getListInvoice/GetListInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/ui/getListInvoice/GetListInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/addInvoice/AddInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/addInvoice/AddInvoiceInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/addInvoice/AddInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/addInvoice/AddInvoiceOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/addInvoice/AddInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/addInvoice/AddInvoiceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/editInvoice/EditInvocieOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/editInvoice/EditInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/editInvoice/EditInvoiceInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/editInvoice/EditInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/editInvoice/EditInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/editInvoice/EditInvoiceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/findInvoice/FindInvocieInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/findInvoice/FindInvocieUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/findInvoice/FindInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/findInvoice/FindInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/findInvoice/FindInvoiceOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/findInvoice/FindInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/getListInvoice/GetListInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/getListInvoice/GetListInvoiceInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/getListInvoice/GetListInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/getListInvoice/GetListInvoiceOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/getListInvoice/GetListInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/main/java/nhom4/useCase/getListInvoice/GetListInvoiceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/test/java/nhom4/Nhom4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../QLHDKhachSan/QLHDKhachSan/src/test/java/nhom4/TestAddInvoiceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/database/AddInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/database/DAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/database/EditInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/database/FindInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/database/GetListInvoiceDAOMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/InvoiceGio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entity/InvoiceNgay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/MainGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/addInvoice/AddInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/addInvoice/AddInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/addInvoice/AddInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/addInvoice/AddInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/editInvoice/EditInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/editInvoice/EditInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/editInvoice/EditInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/editInvoice/EditInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/findInvoice/FindInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/findInvoice/FindInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/findInvoice/FindInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/findInvoice/FindInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/getListInvoice/GetListInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/getListInvoice/GetListInvoicePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/getListInvoice/GetListInvoiceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/getListInvoice/GetListInvoiceViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/addInvoice/AddInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/addInvoice/AddInvoiceInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/addInvoice/AddInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/addInvoice/AddInvoiceOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/addInvoice/AddInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/addInvoice/AddInvoiceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/editInvoice/EditInvocieOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/editInvoice/EditInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/editInvoice/EditInvoiceInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/editInvoice/EditInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/editInvoice/EditInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/editInvoice/EditInvoiceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/findInvoice/FindInvocieInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/findInvoice/FindInvocieUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/findInvoice/FindInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/findInvoice/FindInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/findInvoice/FindInvoiceOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/findInvoice/FindInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/getListInvoice/GetListInvoiceDatabaseBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/getListInvoice/GetListInvoiceInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/getListInvoice/GetListInvoiceInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/getListInvoice/GetListInvoiceOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/getListInvoice/GetListInvoiceOutputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/useCase/getListInvoice/GetListInvoiceUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/AppUseRetrofit/app/src/main/java/com/example/appuseretrofit/ApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/AppUseRetrofit/app/src/main/java/com/example/appuseretrofit/Locatin_dataActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/AppUseRetrofit/app/src/main/java/com/example/appuseretrofit/LocationAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/AppUseRetrofit/app/src/main/java/com/example/appuseretrofit/LocationData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/AppUseRetrofit/app/src/main/res/layout/activity_locatin_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/androidTest/java/com/example/app_cooking/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/java/com/example/app_cooking/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/java/com/example/app_cooking/RegisterActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/drawable/custom_btn_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/drawable/custom_btn_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/drawable/custom_edtest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/values/style_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/app/src/test/java/com/example/app_cooking/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/App_Cooking/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/java/com/example/foodapp/AddFoodActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/java/com/example/foodapp/DialogActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/java/com/example/foodapp/Food.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/java/com/example/foodapp/FoodAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/java/com/example/foodapp/FoodDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/java/com/example/foodapp/FoodDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/java/com/example/foodapp/FoodPost.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/drawable/custom_edt_from_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/drawable/custom_edt_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/drawable/img_noodle_food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/drawable/img_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/drawable/img_shopping_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/drawable/img_three_line_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/drawable/img_vegetable_food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/layout/activity_add_food.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/layout/activity_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/layout/activity_food.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/FoodApp/app/src/main/res/values/style_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/androidTest/java/com/example/lab23/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/java/com/example/lab23/Dashboard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/java/com/example/lab23/Home.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/java/com/example/lab23/HouseAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/java/com/example/lab23/House_item_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/java/com/example/lab23/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/java/com/example/lab23/MyItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/java/com/example/lab23/Notifications.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/drawable/baseline_dashboard_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/drawable/baseline_home_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/drawable/baseline_notifications_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/drawable/baseline_supervisor_account_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/drawable/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/layout/activity_house_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/layout/fragment_dashboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/layout/fragment_notifications.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/menu/menu_option.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/app/src/test/java/com/example/lab23/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/Lab23/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/drawable/img_test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Android_Java/CheckBox/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Android_Java/CheckBox/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Android_Java/CheckBox/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Android_Java/KiemTra/GiuaKy/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Android_Java/RadioButton/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Android_Java/RadioButton/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Android_Java/RadioButton/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Android_Java/baiTap/lab1/Lab1/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Android_Java/baiTap/lab1/Lab1/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/java/target/surefire-reports/TEST-com.example.TestAppSum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Maven/java/target/surefire-reports/TEST-com.example.TestAppSum.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/java/target/surefire-reports/com.example.TestAppSum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Maven/java/target/surefire-reports/com.example.TestAppSum.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/RoomDatabase/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/RoomDatabase/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/RoomDatabase/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/RoomDatabase/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/RoomDatabase/app/src/main/java/com/example/roomdatabase/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/RoomDatabase/app/src/main/java/com/example/roomdatabase/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/java/com/example/appfindyourdreamhouse/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/java/com/example/appfindyourdreamhouse/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/drawable/background_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/drawable/background_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/drawable/custon_btn_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/drawable/custon_btn_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/layout/activity_details_post_house.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/layout/activity_details_post_house.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/AppFindYourDreamHouse/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/FaceBookApplication/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../android-kotlin/baiTap/FaceBookApplication/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../js/Buoi5-vue/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../js/Buoi5-vue/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2oSTBoNWCawe4jMfrjtENgdcNk8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/demoQLHD_KS",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.1150748",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Developer\Java_App\Thiet_Ke_Va_Xd_Pm\QLHD_KhachSan\QLHD_KhachSan\src\main\java\org\example\ui" />
+      <recent name="D:\Developer\Java_App\Thiet_Ke_Va_Xd_Pm\QLHD_KhachSan\QLHD_KhachSan\src\main\java\org\example\useCase" />
+      <recent name="D:\Developer\Java_App\Thiet_Ke_Va_Xd_Pm\QLHD_KhachSan\QLHD_KhachSan\src\main\java\org\example\useCase\addInvoice" />
+      <recent name="D:\Developer\Java_App\Thiet_Ke_Va_Xd_Pm\QLHD_KhachSan\QLHD_KhachSan\src\main\java\org\example\ui\addInvoice" />
+      <recent name="D:\Developer\Java_App\Thiet_Ke_Va_Xd_Pm\QLHD_KhachSan\QLHD_KhachSan\src\main\java\org\example\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.database" />
+      <recent name="org.example.ui.addInvoice" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="QLHD_KhachSan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="417b271f-447d-4371-b7d1-995049edbf57" name="Changes" comment="" />
+      <created>1730861846135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730861846135</updated>
+    </task>
+    <servers />
+  </component>
+</project>
